@@ -1,0 +1,97 @@
+{
+  "mod_elements": [
+    {
+      "name": "MoonCracks",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_cracks"
+    },
+    {
+      "name": "Moon",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "MoonTransport",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_transport",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MoonTeleporterItem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_teleporter_item"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "XCord",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "YCord",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ZCord",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "biome.rss_tech_mod.moon_cracks": "Moon Cracks",
+      "item.rss_tech_mod.moon": "Moon Portal Igniter",
+      "item.rss_tech_mod.moon_teleporter_item": "Moon Teleporter Item"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "rss_tech_mod",
+    "modName": "RSS Tech Mod",
+    "version": "1.0.0",
+    "author": "onatkut, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "modElementsPackage": "net.mcreator.rsstechmod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}
