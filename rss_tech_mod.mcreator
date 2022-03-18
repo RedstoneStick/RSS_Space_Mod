@@ -102,6 +102,15 @@
         ]
       },
       "path": "~/Gasses"
+    },
+    {
+      "name": "MagnesiumOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ore",
+      "path": "~/Ores"
     }
   ],
   "variable_elements": [
@@ -130,6 +139,7 @@
       "block.rss_tech_mod.radon": "Radon Gas",
       "block.rss_tech_mod.uranium_ore": "Uranium Ore",
       "biome.rss_tech_mod.moon_cracks": "Moon Cracks",
+      "block.rss_tech_mod.magnesium_ore": "Magnesium Ore",
       "item.rss_tech_mod.moon": "Moon Portal Igniter",
       "itemGroup.tabores_creative_tab": "RSS SM Ores",
       "item.rss_tech_mod.moon_teleporter_item": "Moon Teleporter Item"
