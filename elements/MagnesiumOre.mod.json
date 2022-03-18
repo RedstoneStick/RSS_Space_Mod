@@ -54,7 +54,7 @@
     "material": {
       "value": "ROCK"
     },
-    "tickRate": 0,
+    "tickRate": 80,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -97,7 +97,7 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
-    "spawnParticles": true,
+    "spawnParticles": false,
     "particleToSpawn": {
       "value": "LAVA"
     },
@@ -121,6 +121,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onNeighbourBlockChanges": {
+      "name": "MagnesOreIgnition"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],

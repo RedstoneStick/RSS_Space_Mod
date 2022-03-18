@@ -111,6 +111,65 @@
       "locked_code": false,
       "registry_name": "magnesium_ore",
       "path": "~/Ores"
+    },
+    {
+      "name": "IsNeighbouringBlockOnFire",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_neighbouring_block_on_fire",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GeneralProcedures"
+    },
+    {
+      "name": "MagnesOreIgnition",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnes_ore_ignition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GeneralProcedures"
     }
   ],
   "variable_elements": [
@@ -171,6 +230,10 @@
       },
       {
         "name": "Gasses",
+        "children": []
+      },
+      {
+        "name": "GeneralProcedures",
         "children": []
       }
     ]
