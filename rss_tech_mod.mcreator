@@ -261,8 +261,8 @@
   "workspaceSettings": {
     "modid": "rss_tech_mod",
     "modName": "RSS Tech Mod",
-    "version": "1.0.0",
-    "author": "onatkut, MCreator",
+    "version": "0.0.1",
+    "author": "RedstoneStick, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",
     "disableForgeVersionCheck": true,
