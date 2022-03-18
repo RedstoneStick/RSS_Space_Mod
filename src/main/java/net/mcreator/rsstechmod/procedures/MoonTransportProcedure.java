@@ -31,7 +31,6 @@ public class MoonTransportProcedure {
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
-		RssTechModModVariables.DimTpCanSeeTheSky = (false);
 		{
 			double _setval = (entity.getPosX());
 			entity.getCapability(RssTechModModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {

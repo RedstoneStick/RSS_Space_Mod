@@ -6,7 +6,8 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "moon_cracks"
+      "registry_name": "moon_cracks",
+      "path": "~/Moon/Biomes"
     },
     {
       "name": "Moon",
@@ -17,7 +18,8 @@
       "registry_name": "moon",
       "metadata": {
         "ep": false
-      }
+      },
+      "path": "~/Moon"
     },
     {
       "name": "MoonTransport",
@@ -33,7 +35,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Dev Tools"
     },
     {
       "name": "MoonTeleporterItem",
@@ -41,7 +44,64 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "moon_teleporter_item"
+      "registry_name": "moon_teleporter_item",
+      "path": "~/Dev Tools"
+    },
+    {
+      "name": "OresCreativeTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_creative_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "Radon",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radon",
+      "path": "~/Gasses"
+    },
+    {
+      "name": "RadonGenerate",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radon_generate",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Gasses"
     }
   ],
   "variable_elements": [
@@ -62,25 +122,48 @@
       "type": "number",
       "scope": "player_persistent",
       "value": "0"
-    },
-    {
-      "name": "DimTpCanSeeTheSky",
-      "type": "logic",
-      "scope": "global",
-      "value": "false"
     }
   ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "block.rss_tech_mod.radon": "Radon Gas",
+      "block.rss_tech_mod.uranium_ore": "Uranium Ore",
       "biome.rss_tech_mod.moon_cracks": "Moon Cracks",
       "item.rss_tech_mod.moon": "Moon Portal Igniter",
+      "itemGroup.tabores_creative_tab": "RSS SM Ores",
       "item.rss_tech_mod.moon_teleporter_item": "Moon Teleporter Item"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Dev Tools",
+        "children": []
+      },
+      {
+        "name": "Moon",
+        "children": [
+          {
+            "name": "Biomes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ores",
+        "children": []
+      },
+      {
+        "name": "CreativeTabs",
+        "children": []
+      },
+      {
+        "name": "Gasses",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "rss_tech_mod",
@@ -96,6 +179,7 @@
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.rsstechmod",
     "lockBaseModFiles": false
   },
