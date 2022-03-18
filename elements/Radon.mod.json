@@ -8,11 +8,11 @@
     "textureFront": "transparency",
     "textureRight": "transparency",
     "textureBack": "transparency",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
-    "displayFluidOverlay": false,
+    "displayFluidOverlay": true,
     "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
@@ -28,7 +28,7 @@
         "mz": 0.0,
         "Mx": 0.0,
         "My": 0.0,
-        "Mz": 16.0,
+        "Mz": 0.0,
         "subtract": false
       }
     ],
@@ -37,7 +37,7 @@
     "hardness": 0.0,
     "resistance": 10.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:OresCreativeTab"
     },
@@ -50,11 +50,11 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canRedstoneConnect": false,
-    "lightOpacity": 15,
+    "lightOpacity": 0,
     "material": {
       "value": "MISCELLANEOUS"
     },
-    "tickRate": 20,
+    "tickRate": 0,
     "tickRandomly": false,
     "isReplaceable": true,
     "canProvidePower": false,

@@ -10,13 +10,13 @@ import net.minecraft.util.Hand;
 import net.minecraft.util.ActionResult;
 import net.minecraft.item.Rarity;
 import net.minecraft.item.ItemStack;
-import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.rsstechmod.procedures.MoonTransportProcedure;
+import net.mcreator.rsstechmod.itemgroup.DevToolsCreativeTabItemGroup;
 import net.mcreator.rsstechmod.RssTechModModElements;
 
 import java.util.stream.Stream;
@@ -41,7 +41,7 @@ public class MoonTeleporterItemItem extends RssTechModModElements.ModElement {
 
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
-			super(new Item.Properties().group(ItemGroup.MISC).maxStackSize(1).rarity(Rarity.EPIC));
+			super(new Item.Properties().group(DevToolsCreativeTabItemGroup.tab).maxStackSize(1).rarity(Rarity.EPIC));
 			setRegistryName("moon_teleporter_item");
 		}
 

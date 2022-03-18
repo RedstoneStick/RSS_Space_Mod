@@ -38,7 +38,7 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.rsstechmod.procedures.RadonGenerateProcedure;
+import net.mcreator.rsstechmod.procedures.UraniumGeneratesRadonProcedure;
 import net.mcreator.rsstechmod.itemgroup.OresCreativeTabItemGroup;
 import net.mcreator.rsstechmod.RssTechModModElements;
 
@@ -100,7 +100,7 @@ public class UraniumOreBlock extends RssTechModModElements.ModElement {
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			RadonGenerateProcedure.executeProcedure(Stream
+			UraniumGeneratesRadonProcedure.executeProcedure(Stream
 					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
 							new AbstractMap.SimpleEntry<>("z", z))
 					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));

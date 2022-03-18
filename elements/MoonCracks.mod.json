@@ -14,7 +14,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "CUSTOM:a_mist_of_mystic"
     },
     "additionsSound": {
       "value": ""
@@ -25,7 +25,7 @@
     "moodSound": {
       "value": ""
     },
-    "moodSoundDelay": 6000,
+    "moodSoundDelay": 1690,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"

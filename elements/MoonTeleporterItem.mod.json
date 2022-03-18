@@ -8,7 +8,7 @@
     "name": "Moon Teleporter Item",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:DevToolsCreativeTab"
     },
     "stackSize": 1,
     "enchantability": 0,

@@ -1,12 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "rss_tech_mod:blocks/transparency",
-    "up": "rss_tech_mod:blocks/transparency",
-    "north": "rss_tech_mod:blocks/transparency",
-    "east": "rss_tech_mod:blocks/transparency",
-    "south": "rss_tech_mod:blocks/transparency",
-    "west": "rss_tech_mod:blocks/transparency",
+    "all": "rss_tech_mod:blocks/transparency",
     "particle": "rss_tech_mod:blocks/transparency"
   }
 }

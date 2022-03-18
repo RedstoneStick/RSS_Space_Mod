@@ -47,6 +47,8 @@ public class RssTechModModElements {
 	public static Map<ResourceLocation, net.minecraft.util.SoundEvent> sounds = new HashMap<>();
 
 	public RssTechModModElements() {
+		sounds.put(new ResourceLocation("rss_tech_mod", "a_mist_of_mystic"),
+				new net.minecraft.util.SoundEvent(new ResourceLocation("rss_tech_mod", "a_mist_of_mystic")));
 		try {
 			ModFileScanData modFileInfo = ModList.get().getModFileById("rss_tech_mod").getFile().getScanResult();
 			Set<ModFileScanData.AnnotationData> annotations = modFileInfo.getAnnotations();

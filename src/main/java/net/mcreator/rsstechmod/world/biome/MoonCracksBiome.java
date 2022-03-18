@@ -1,6 +1,7 @@
 
 package net.mcreator.rsstechmod.world.biome;
 
+import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -13,6 +14,7 @@ import net.minecraft.world.biome.DefaultBiomeFeatures;
 import net.minecraft.world.biome.BiomeGenerationSettings;
 import net.minecraft.world.biome.BiomeAmbience;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.util.ResourceLocation;
 import net.minecraft.block.Blocks;
 
 import net.mcreator.rsstechmod.RssTechModModElements;
@@ -31,7 +33,10 @@ public class MoonCracksBiome extends RssTechModModElements.ModElement {
 		public void registerBiomes(RegistryEvent.Register<Biome> event) {
 			if (biome == null) {
 				BiomeAmbience effects = new BiomeAmbience.Builder().setFogColor(-3355444).setWaterColor(4159204).setWaterFogColor(329011)
-						.withSkyColor(-3355444).withFoliageColor(10387789).withGrassColor(9470285).build();
+						.withSkyColor(-3355444).withFoliageColor(10387789).withGrassColor(9470285)
+						.setAmbientSound((net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS
+								.getValue(new ResourceLocation("rss_tech_mod:a_mist_of_mystic")))
+						.build();
 				BiomeGenerationSettings.Builder biomeGenerationSettings = new BiomeGenerationSettings.Builder()
 						.withSurfaceBuilder(SurfaceBuilder.DEFAULT.func_242929_a(new SurfaceBuilderConfig(Blocks.GRAVEL.getDefaultState(),
 								Blocks.BASALT.getDefaultState(), Blocks.BASALT.getDefaultState())));

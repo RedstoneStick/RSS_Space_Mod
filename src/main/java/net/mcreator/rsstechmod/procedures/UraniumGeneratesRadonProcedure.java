@@ -13,27 +13,27 @@ import net.mcreator.rsstechmod.RssTechModMod;
 
 import java.util.Map;
 
-public class RadonGenerateProcedure {
+public class UraniumGeneratesRadonProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				RssTechModMod.LOGGER.warn("Failed to load dependency world for procedure RadonGenerate!");
+				RssTechModMod.LOGGER.warn("Failed to load dependency world for procedure UraniumGeneratesRadon!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				RssTechModMod.LOGGER.warn("Failed to load dependency x for procedure RadonGenerate!");
+				RssTechModMod.LOGGER.warn("Failed to load dependency x for procedure UraniumGeneratesRadon!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				RssTechModMod.LOGGER.warn("Failed to load dependency y for procedure RadonGenerate!");
+				RssTechModMod.LOGGER.warn("Failed to load dependency y for procedure UraniumGeneratesRadon!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				RssTechModMod.LOGGER.warn("Failed to load dependency z for procedure RadonGenerate!");
+				RssTechModMod.LOGGER.warn("Failed to load dependency z for procedure UraniumGeneratesRadon!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -66,6 +66,6 @@ public class RadonGenerateProcedure {
 				}
 				MinecraftForge.EVENT_BUS.unregister(this);
 			}
-		}.start(world, (int) 10);
+		}.start(world, (int) 5);
 	}
 }
