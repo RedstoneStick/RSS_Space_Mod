@@ -283,6 +283,44 @@
       "locked_code": false,
       "registry_name": "ore_black_sand_uranium",
       "path": "~/Ores/BlackSandOreGroup"
+    },
+    {
+      "name": "PlacerDepositTop",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placer_deposit_top",
+      "path": "~/Structures/Placer Deposits"
+    },
+    {
+      "name": "PlacerDepositTopBlockAdded",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "placer_deposit_top_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/Placer Deposits"
     }
   ],
   "variable_elements": [
@@ -344,6 +382,7 @@
       "itemGroup.tabdev_tools_creative_tab": "RSS\u0027SM Admin Tools",
       "item.rss_tech_mod.armor_astronaut_suit_chestplate": "Astronaut Suit Body",
       "itemGroup.tabtools_and_armour_creative_tab": "RSS\u0027SM Equipment",
+      "block.rss_space_mod.placer_deposit_top": "Placer Deposit Top",
       "block.rss_tech_mod.radon": "Radon Gas",
       "item.rss_tech_mod.armor_astronaut_suit_leggings": "Astronaut Suit Leggings",
       "biome.rss_tech_mod.moon_cracks": "Moon Cracks",
@@ -388,6 +427,15 @@
       {
         "name": "GeneralProcedures",
         "children": []
+      },
+      {
+        "name": "Structures",
+        "children": [
+          {
+            "name": "Placer Deposits",
+            "children": []
+          }
+        ]
       }
     ]
   },

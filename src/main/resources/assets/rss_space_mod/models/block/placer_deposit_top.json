@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rss_space_mod:blocks/generator_block",
+    "up": "rss_space_mod:blocks/generator_block",
+    "north": "rss_space_mod:blocks/generator_block",
+    "east": "rss_space_mod:blocks/generator_block",
+    "south": "rss_space_mod:blocks/generator_block",
+    "west": "rss_space_mod:blocks/generator_block",
+    "particle": "rss_space_mod:blocks/generator_block"
+  }
+}
