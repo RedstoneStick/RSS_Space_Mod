@@ -1,0 +1,11 @@
+{
+  "a_mist_of_mystic": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "rss_space_mod:a_mist_of_mystic",
+        "stream": true
+      }
+    ]
+  }
+}

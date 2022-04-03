@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rss_space_mod:blocks/ore_uranium",
+    "up": "rss_space_mod:blocks/ore_uranium",
+    "north": "rss_space_mod:blocks/ore_uranium",
+    "east": "rss_space_mod:blocks/ore_uranium",
+    "south": "rss_space_mod:blocks/ore_uranium",
+    "west": "rss_space_mod:blocks/ore_uranium",
+    "particle": "rss_space_mod:blocks/ore_uranium"
+  }
+}

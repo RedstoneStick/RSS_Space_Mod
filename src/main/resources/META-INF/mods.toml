@@ -3,14 +3,14 @@ loaderVersion="[36,)"
 license="Academic Free License v3.0"
 
 [[mods]]
-modId="rss_tech_mod"
-version="0.0.1"
-displayName="RSS Tech Mod"
+modId="rss_space_mod"
+version="0.0.2"
+displayName="RSS Space Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
 authors="RedstoneStick, MCreator"
 
-[[dependencies.rss_tech_mod]]
+[[dependencies.rss_space_mod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.16.5]"

@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rss_space_mod:blocks/ore_magnesium",
+    "up": "rss_space_mod:blocks/ore_magnesium",
+    "north": "rss_space_mod:blocks/ore_magnesium",
+    "east": "rss_space_mod:blocks/ore_magnesium",
+    "south": "rss_space_mod:blocks/ore_magnesium",
+    "west": "rss_space_mod:blocks/ore_magnesium",
+    "particle": "rss_space_mod:blocks/ore_magnesium"
+  }
+}

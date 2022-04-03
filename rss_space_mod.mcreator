@@ -1,0 +1,413 @@
+{
+  "mod_elements": [
+    {
+      "name": "MoonCracks",
+      "type": "biome",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_cracks",
+      "path": "~/Moon/Biomes"
+    },
+    {
+      "name": "Moon",
+      "type": "dimension",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon",
+      "metadata": {
+        "ep": false
+      },
+      "path": "~/Moon"
+    },
+    {
+      "name": "MoonTransport",
+      "type": "procedure",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_transport",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Dev Tools"
+    },
+    {
+      "name": "MoonTeleporterItem",
+      "type": "item",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "moon_teleporter_item",
+      "path": "~/Dev Tools"
+    },
+    {
+      "name": "OresCreativeTab",
+      "type": "tab",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_creative_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "UraniumOre",
+      "type": "block",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "Radon",
+      "type": "block",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radon",
+      "path": "~/Gasses"
+    },
+    {
+      "name": "MagnesiumOre",
+      "type": "block",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnesium_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "IsNeighbouringBlockOnFire",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_neighbouring_block_on_fire",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/GeneralProcedures"
+    },
+    {
+      "name": "MagnesOreIgnition",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "magnes_ore_ignition",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "UraniumGeneratesRadon",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_generates_radon",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Ores"
+    },
+    {
+      "name": "DevToolsCreativeTab",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dev_tools_creative_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "ArmorAstronautSuit",
+      "type": "armor",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_astronaut_suit",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": false,
+        "ec": true
+      }
+    },
+    {
+      "name": "ToolsAndArmourCreativeTab",
+      "type": "tab",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tools_and_armour_creative_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "BlocksCreativeTab",
+      "type": "tab",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blocks_creative_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "MachinesCreativeTab",
+      "type": "tab",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "machines_creative_tab",
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "OreBlackSand",
+      "type": "block",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_black_sand",
+      "path": "~/Ores/BlackSandOreGroup"
+    },
+    {
+      "name": "OreBlackSandDiamond",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_black_sand_diamond",
+      "path": "~/Ores/BlackSandOreGroup"
+    },
+    {
+      "name": "OreBlackSandGold",
+      "type": "block",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_black_sand_gold",
+      "path": "~/Ores/BlackSandOreGroup"
+    },
+    {
+      "name": "OreBlackSandPlatinum",
+      "type": "block",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_black_sand_platinum",
+      "path": "~/Ores/BlackSandOreGroup"
+    },
+    {
+      "name": "OreBlackSandThorium",
+      "type": "block",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_black_sand_thorium",
+      "path": "~/Ores/BlackSandOreGroup"
+    },
+    {
+      "name": "OreBlackSandTitanium",
+      "type": "block",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_black_sand_titanium",
+      "path": "~/Ores/BlackSandOreGroup"
+    },
+    {
+      "name": "OreBlackSandUranium",
+      "type": "block",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_black_sand_uranium",
+      "path": "~/Ores/BlackSandOreGroup"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "XCord",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "YCord",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "ZCord",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [
+    {
+      "name": "a_mist_of_mystic",
+      "files": [
+        "a_mist_of_mystic"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "itemGroup.tabblocks_creative_tab": "RSS\u0027SM Blocks",
+      "item.rss_space_mod.armor_astronaut_suit_boots": "Armor Astronaut Suit Boots",
+      "block.rss_space_mod.ore_black_sand_diamond": "Diamond Ore In Black Sand",
+      "item.rss_space_mod.armor_astronaut_suit_helmet": "Astronaut Suit Helmet",
+      "block.rss_tech_mod.uranium_ore": "Uranium Ore",
+      "block.rss_space_mod.ore_black_sand_titanium": "Titanium Ore In Black Sand",
+      "itemGroup.tabores_creative_tab": "RSS\u0027SM Ores",
+      "item.rss_tech_mod.moon_teleporter_item": "Moon Teleporter Item",
+      "block.rss_space_mod.radon": "Radon Gas",
+      "biome.rss_space_mod.moon_cracks": "Moon Cracks",
+      "block.rss_space_mod.ore_black_sand": "Black Sand",
+      "item.rss_space_mod.armor_astronaut_suit_leggings": "Astronaut Suit Leggings",
+      "block.rss_tech_mod.magnesium_ore": "Magnesium Ore",
+      "block.rss_space_mod.uranium_ore": "Uranium Ore",
+      "item.rss_tech_mod.armor_astronaut_suit_boots": "Armor Astronaut Suit Boots",
+      "block.rss_space_mod.ore_black_sand_uranium": "Uranium Ore In Black Sand",
+      "item.rss_space_mod.moon": "Moon Portal Igniter",
+      "subtitles.a_mist_of_mystic": "",
+      "item.rss_space_mod.moon_teleporter_item": "Moon Teleporter Item",
+      "block.rss_space_mod.ore_black_sand_platinum": "Platinum Ore In Black Sand",
+      "item.rss_space_mod.armor_astronaut_suit_chestplate": "Astronaut Suit Body",
+      "block.rss_space_mod.magnesium_ore": "Magnesium Ore",
+      "item.rss_tech_mod.moon": "Moon Portal Igniter",
+      "itemGroup.tabmachines_creative_tab": "RSS\u0027SM Machines",
+      "itemGroup.tabdev_tools_creative_tab": "RSS\u0027SM Admin Tools",
+      "item.rss_tech_mod.armor_astronaut_suit_chestplate": "Astronaut Suit Body",
+      "itemGroup.tabtools_and_armour_creative_tab": "RSS\u0027SM Equipment",
+      "block.rss_tech_mod.radon": "Radon Gas",
+      "item.rss_tech_mod.armor_astronaut_suit_leggings": "Astronaut Suit Leggings",
+      "biome.rss_tech_mod.moon_cracks": "Moon Cracks",
+      "item.rss_tech_mod.armor_astronaut_suit_helmet": "Astronaut Suit Helmet",
+      "block.rss_space_mod.ore_black_sand_thorium": "Thorium Ore In Black Sand",
+      "block.rss_space_mod.ore_black_sand_gold": "Gold Ore In Black Sand"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Dev Tools",
+        "children": []
+      },
+      {
+        "name": "Moon",
+        "children": [
+          {
+            "name": "Biomes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Ores",
+        "children": [
+          {
+            "name": "BlackSandOreGroup",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "CreativeTabs",
+        "children": []
+      },
+      {
+        "name": "Gasses",
+        "children": []
+      },
+      {
+        "name": "GeneralProcedures",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "rss_space_mod",
+    "modName": "RSS Space Mod",
+    "version": "0.0.2",
+    "author": "RedstoneStick, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.5",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.rssspacemod",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100354000
+}

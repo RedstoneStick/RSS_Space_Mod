@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rss_space_mod:blocks/ore_platinum_black_sand",
+    "up": "rss_space_mod:blocks/ore_platinum_black_sand",
+    "north": "rss_space_mod:blocks/ore_platinum_black_sand",
+    "east": "rss_space_mod:blocks/ore_platinum_black_sand",
+    "south": "rss_space_mod:blocks/ore_platinum_black_sand",
+    "west": "rss_space_mod:blocks/ore_platinum_black_sand",
+    "particle": "rss_space_mod:blocks/ore_platinum_black_sand"
+  }
+}
