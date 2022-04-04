@@ -7,36 +7,34 @@ import net.minecraft.tileentity.TileEntity;
 import net.minecraft.block.BlockState;
 
 import net.mcreator.rssspacemod.world.RSSSMStructureGenerateGameRule;
-import net.mcreator.rssspacemod.block.OreBlackSandUraniumBlock;
+import net.mcreator.rssspacemod.block.OreBlackSandThoriumBlock;
 import net.mcreator.rssspacemod.block.OreBlackSandPlatinumBlock;
-import net.mcreator.rssspacemod.block.OreBlackSandGoldBlock;
-import net.mcreator.rssspacemod.block.OreBlackSandDiamondBlock;
 import net.mcreator.rssspacemod.block.OreBlackSandBlock;
 import net.mcreator.rssspacemod.RssSpaceModMod;
 
 import java.util.Map;
 
-public class PlacerDepositBottomBlockAddedProcedure {
+public class PlacerDepositMidBlockAddedProcedure {
 
 	public static void executeProcedure(Map<String, Object> dependencies) {
 		if (dependencies.get("world") == null) {
 			if (!dependencies.containsKey("world"))
-				RssSpaceModMod.LOGGER.warn("Failed to load dependency world for procedure PlacerDepositBottomBlockAdded!");
+				RssSpaceModMod.LOGGER.warn("Failed to load dependency world for procedure PlacerDepositMidBlockAdded!");
 			return;
 		}
 		if (dependencies.get("x") == null) {
 			if (!dependencies.containsKey("x"))
-				RssSpaceModMod.LOGGER.warn("Failed to load dependency x for procedure PlacerDepositBottomBlockAdded!");
+				RssSpaceModMod.LOGGER.warn("Failed to load dependency x for procedure PlacerDepositMidBlockAdded!");
 			return;
 		}
 		if (dependencies.get("y") == null) {
 			if (!dependencies.containsKey("y"))
-				RssSpaceModMod.LOGGER.warn("Failed to load dependency y for procedure PlacerDepositBottomBlockAdded!");
+				RssSpaceModMod.LOGGER.warn("Failed to load dependency y for procedure PlacerDepositMidBlockAdded!");
 			return;
 		}
 		if (dependencies.get("z") == null) {
 			if (!dependencies.containsKey("z"))
-				RssSpaceModMod.LOGGER.warn("Failed to load dependency z for procedure PlacerDepositBottomBlockAdded!");
+				RssSpaceModMod.LOGGER.warn("Failed to load dependency z for procedure PlacerDepositMidBlockAdded!");
 			return;
 		}
 		IWorld world = (IWorld) dependencies.get("world");
@@ -53,7 +51,7 @@ public class PlacerDepositBottomBlockAddedProcedure {
 				if (world instanceof World)
 					((World) world).notifyBlockUpdate(_bp, _bs, _bs, 3);
 			}
-			if (0.1 >= new Object() {
+			if (0.15 >= new Object() {
 				public double getValue(IWorld world, BlockPos pos, String tag) {
 					TileEntity tileEntity = world.getTileEntity(pos);
 					if (tileEntity != null)
@@ -61,26 +59,8 @@ public class PlacerDepositBottomBlockAddedProcedure {
 					return -1;
 				}
 			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "Num")) {
-				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), OreBlackSandDiamondBlock.block.getDefaultState(), 3);
-			} else if (0.2 >= new Object() {
-				public double getValue(IWorld world, BlockPos pos, String tag) {
-					TileEntity tileEntity = world.getTileEntity(pos);
-					if (tileEntity != null)
-						return tileEntity.getTileData().getDouble(tag);
-					return -1;
-				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "Num")) {
-				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), OreBlackSandUraniumBlock.block.getDefaultState(), 3);
-			} else if (0.4 >= new Object() {
-				public double getValue(IWorld world, BlockPos pos, String tag) {
-					TileEntity tileEntity = world.getTileEntity(pos);
-					if (tileEntity != null)
-						return tileEntity.getTileData().getDouble(tag);
-					return -1;
-				}
-			}.getValue(world, new BlockPos((int) x, (int) y, (int) z), "Num")) {
-				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), OreBlackSandGoldBlock.block.getDefaultState(), 3);
-			} else if (0.45 >= new Object() {
+				world.setBlockState(new BlockPos((int) x, (int) y, (int) z), OreBlackSandThoriumBlock.block.getDefaultState(), 3);
+			} else if (0.17 >= new Object() {
 				public double getValue(IWorld world, BlockPos pos, String tag) {
 					TileEntity tileEntity = world.getTileEntity(pos);
 					if (tileEntity != null)
