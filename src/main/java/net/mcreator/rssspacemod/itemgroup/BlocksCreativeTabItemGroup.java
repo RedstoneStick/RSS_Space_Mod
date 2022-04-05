@@ -6,8 +6,8 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
-import net.minecraft.block.Blocks;
 
+import net.mcreator.rssspacemod.block.PlacerDepositBottomBlock;
 import net.mcreator.rssspacemod.RssSpaceModModElements;
 
 @RssSpaceModModElements.ModElement.Tag
@@ -22,7 +22,7 @@ public class BlocksCreativeTabItemGroup extends RssSpaceModModElements.ModElemen
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(Blocks.STONE);
+				return new ItemStack(PlacerDepositBottomBlock.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)

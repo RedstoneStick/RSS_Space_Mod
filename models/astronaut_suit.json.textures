@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "astronaut_suit_texture",
+        "1": "stand"
+      },
+      "name": "default"
+    }
+  }
+}

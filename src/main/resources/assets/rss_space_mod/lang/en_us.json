@@ -10,11 +10,13 @@
   "item.rss_tech_mod.moon_teleporter_item": "Moon Teleporter Item",
   "block.rss_space_mod.radon": "Radon Gas",
   "biome.rss_space_mod.moon_cracks": "Moon Cracks",
+  "item.rss_space_mod.cockpit_blueprint": "T1 Cockpit Blueprint",
   "block.rss_space_mod.ore_black_sand": "Black Sand",
   "gamerule.rsssm_structure_generate": "structureGenerate",
   "item.rss_space_mod.armor_astronaut_suit_leggings": "Astronaut Suit Leggings",
   "block.rss_tech_mod.magnesium_ore": "Magnesium Ore",
   "block.rss_space_mod.uranium_ore": "Uranium Ore",
+  "block.rss_space_mod.astronaut_suit_stand": "Astronaut Suit Stand",
   "item.rss_tech_mod.armor_astronaut_suit_boots": "Armor Astronaut Suit Boots",
   "block.rss_space_mod.ore_black_sand_uranium": "Uranium Ore In Black Sand",
   "item.rss_space_mod.moon": "Moon Portal Igniter",
@@ -30,6 +32,7 @@
   "itemGroup.tabmachines_creative_tab": "RSS\u0027SM Machines",
   "itemGroup.tabdev_tools_creative_tab": "RSS\u0027SM Admin Tools",
   "gamerule.rsssm_structure_generate.description": "defines if the random structures from RSS SM will generate",
+  "itemGroup.tabitems_creative_tab": "Items Creative Tab",
   "item.rss_tech_mod.armor_astronaut_suit_chestplate": "Astronaut Suit Body",
   "itemGroup.tabtools_and_armour_creative_tab": "RSS\u0027SM Equipment",
   "block.rss_space_mod.placer_deposit_top": "Placer Deposit Top",
@@ -39,5 +42,6 @@
   "item.rss_tech_mod.armor_astronaut_suit_helmet": "Astronaut Suit Helmet",
   "gamerule.rSSSMStructureGenerate": "RSSSM Structure Generate",
   "block.rss_space_mod.ore_black_sand_thorium": "Thorium Ore In Black Sand",
-  "block.rss_space_mod.ore_black_sand_gold": "Gold Ore In Black Sand"
+  "block.rss_space_mod.ore_black_sand_gold": "Gold Ore In Black Sand",
+  "block.rss_space_mod.lab_large_main_generator": "Lab Large Main Generator"
 }

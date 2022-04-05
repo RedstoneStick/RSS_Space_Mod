@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rss_space_mod:blocks/generator_block",
+    "particle": "rss_space_mod:blocks/generator_block"
+  }
+}

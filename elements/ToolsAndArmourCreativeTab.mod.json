@@ -4,7 +4,7 @@
   "definition": {
     "name": "RSS'SM Equipment",
     "icon": {
-      "value": "CUSTOM:MoonTeleporterItem"
+      "value": "CUSTOM:AstronautSuitStand"
     },
     "showSearch": false
   }

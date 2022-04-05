@@ -7,22 +7,22 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemGroup;
 
-import net.mcreator.rssspacemod.block.AstronautSuitStandBlock;
+import net.mcreator.rssspacemod.item.CockpitBlueprintItem;
 import net.mcreator.rssspacemod.RssSpaceModModElements;
 
 @RssSpaceModModElements.ModElement.Tag
-public class ToolsAndArmourCreativeTabItemGroup extends RssSpaceModModElements.ModElement {
-	public ToolsAndArmourCreativeTabItemGroup(RssSpaceModModElements instance) {
-		super(instance, 12);
+public class ItemsCreativeTabItemGroup extends RssSpaceModModElements.ModElement {
+	public ItemsCreativeTabItemGroup(RssSpaceModModElements instance) {
+		super(instance, 33);
 	}
 
 	@Override
 	public void initElements() {
-		tab = new ItemGroup("tabtools_and_armour_creative_tab") {
+		tab = new ItemGroup("tabitems_creative_tab") {
 			@OnlyIn(Dist.CLIENT)
 			@Override
 			public ItemStack createIcon() {
-				return new ItemStack(AstronautSuitStandBlock.block);
+				return new ItemStack(CockpitBlueprintItem.block);
 			}
 
 			@OnlyIn(Dist.CLIENT)
