@@ -5,7 +5,7 @@
     "structure": "large_lab_generator",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 200,
+    "spawnProbability": 500,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
