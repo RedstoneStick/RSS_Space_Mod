@@ -1,0 +1,8 @@
+{
+  "parent": "rss_space_mod:custom/blueprint",
+  "textures": {
+    "0": "rss_space_mod:blocks/blueprint_medium",
+    "1": "rss_space_mod:blocks/storage_blueprint_item",
+    "particle": "rss_space_mod:items/storage_blueprint_item"
+  }
+}

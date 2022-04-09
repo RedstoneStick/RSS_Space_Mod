@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "rss_space_mod:blocks/power_connector_darkred",
+    "up": "rss_space_mod:blocks/power_connector_darkred",
+    "north": "rss_space_mod:blocks/power_connector_darkred",
+    "east": "rss_space_mod:blocks/power_connector_darkred",
+    "south": "rss_space_mod:blocks/power_connector_darkred",
+    "west": "rss_space_mod:blocks/power_connector_darkred",
+    "particle": "rss_space_mod:blocks/power_connector_darkred"
+  }
+}

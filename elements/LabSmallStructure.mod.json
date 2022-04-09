@@ -2,10 +2,10 @@
   "_fv": 24,
   "_type": "structure",
   "definition": {
-    "structure": "lab_large_generator",
+    "structure": "lab_small_generator",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 500,
+    "spawnProbability": 700,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",
@@ -17,9 +17,6 @@
     ],
     "restrictionBlocks": [],
     "restrictionBiomes": [
-      {
-        "value": "plains"
-      },
       {
         "value": "birch_forest"
       },
@@ -36,7 +33,16 @@
         "value": "redwood_taiga"
       },
       {
+        "value": "plains"
+      },
+      {
         "value": "savanna"
+      },
+      {
+        "value": "taiga_cold"
+      },
+      {
+        "value": "snowy_tundra"
       },
       {
         "value": "mutated_plains"
@@ -50,7 +56,7 @@
     ],
     "ignoreBlocks": "STRUCTURE_BLOCK",
     "onStructureGenerated": {
-      "name": "LargeLabStructureOnStructureInstanceGenerated"
+      "name": "LabSmallStructureOnStructureInstanceGenerated"
     }
   }
 }

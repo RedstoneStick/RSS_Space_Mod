@@ -12,12 +12,12 @@ import net.mcreator.rssspacemod.itemgroup.ItemsCreativeTabItemGroup;
 import net.mcreator.rssspacemod.RssSpaceModModElements;
 
 @RssSpaceModModElements.ModElement.Tag
-public class CockpitBlueprintItem extends RssSpaceModModElements.ModElement {
-	@ObjectHolder("rss_space_mod:cockpit_blueprint")
+public class CargoBlueprintItem extends RssSpaceModModElements.ModElement {
+	@ObjectHolder("rss_space_mod:cargo_blueprint")
 	public static final Item block = null;
 
-	public CockpitBlueprintItem(RssSpaceModModElements instance) {
-		super(instance, 33);
+	public CargoBlueprintItem(RssSpaceModModElements instance) {
+		super(instance, 42);
 	}
 
 	@Override
@@ -28,7 +28,7 @@ public class CockpitBlueprintItem extends RssSpaceModModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(ItemsCreativeTabItemGroup.tab).maxStackSize(1).rarity(Rarity.RARE));
-			setRegistryName("cockpit_blueprint");
+			setRegistryName("cargo_blueprint");
 		}
 
 		@Override

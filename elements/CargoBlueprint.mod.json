@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 1,
-    "texture": "cockpit_blueprint_item",
-    "customModelName": "blueprint:cockpit",
-    "name": "T1 Rocket Cockpit Blueprint",
+    "texture": "storage_blueprint_item",
+    "customModelName": "blueprint:cargo",
+    "name": "T1 Rocket Storage Blueprint",
     "rarity": "RARE",
     "creativeTab": {
       "value": "CUSTOM:ItemsCreativeTab"

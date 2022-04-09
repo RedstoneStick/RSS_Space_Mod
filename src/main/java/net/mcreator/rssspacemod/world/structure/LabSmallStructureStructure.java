@@ -28,7 +28,7 @@ import net.minecraft.util.ResourceLocation;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.Mirror;
 
-import net.mcreator.rssspacemod.procedures.LargeLabStructureOnStructureInstanceGeneratedProcedure;
+import net.mcreator.rssspacemod.procedures.LabSmallStructureOnStructureInstanceGeneratedProcedure;
 
 import java.util.stream.Stream;
 import java.util.Random;
@@ -37,7 +37,7 @@ import java.util.HashMap;
 import java.util.AbstractMap;
 
 @Mod.EventBusSubscriber
-public class LargeLabStructureStructure {
+public class LabSmallStructureStructure {
 	private static Feature<NoFeatureConfig> feature = null;
 	private static ConfiguredFeature<?, ?> configuredFeature = null;
 
@@ -56,7 +56,7 @@ public class LargeLabStructureStructure {
 						dimensionCriteria = true;
 					if (!dimensionCriteria)
 						return false;
-					if ((random.nextInt(1000000) + 1) <= 500) {
+					if ((random.nextInt(1000000) + 1) <= 700) {
 						int count = random.nextInt(1) + 1;
 						for (int a = 0; a < count; a++) {
 							int i = ci + random.nextInt(16);
@@ -70,7 +70,7 @@ public class LargeLabStructureStructure {
 							int y = spawnTo.getY();
 							int z = spawnTo.getZ();
 							Template template = world.getWorld().getStructureTemplateManager()
-									.getTemplateDefaulted(new ResourceLocation("rss_space_mod", "lab_large_generator"));
+									.getTemplateDefaulted(new ResourceLocation("rss_space_mod", "lab_small_generator"));
 							if (template == null)
 								return false;
 							template.func_237144_a_(world, spawnTo,
@@ -78,7 +78,7 @@ public class LargeLabStructureStructure {
 											.addProcessor(BlockIgnoreStructureProcessor.STRUCTURE_BLOCK).setChunk(null).setIgnoreEntities(false),
 									random);
 
-							LargeLabStructureOnStructureInstanceGeneratedProcedure.executeProcedure(Stream
+							LabSmallStructureOnStructureInstanceGeneratedProcedure.executeProcedure(Stream
 									.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x),
 											new AbstractMap.SimpleEntry<>("y", y), new AbstractMap.SimpleEntry<>("z", z))
 									.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
@@ -89,16 +89,14 @@ public class LargeLabStructureStructure {
 			};
 			configuredFeature = feature.withConfiguration(IFeatureConfig.NO_FEATURE_CONFIG)
 					.withPlacement(Placement.NOPE.configure(IPlacementConfig.NO_PLACEMENT_CONFIG));
-			event.getRegistry().register(feature.setRegistryName("large_lab_structure"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rss_space_mod:large_lab_structure"), configuredFeature);
+			event.getRegistry().register(feature.setRegistryName("lab_small_structure"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rss_space_mod:lab_small_structure"), configuredFeature);
 		}
 	}
 
 	@SubscribeEvent
 	public static void addFeatureToBiomes(BiomeLoadingEvent event) {
 		boolean biomeCriteria = false;
-		if (new ResourceLocation("plains").equals(event.getName()))
-			biomeCriteria = true;
 		if (new ResourceLocation("birch_forest").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("flower_forest").equals(event.getName()))
@@ -109,7 +107,13 @@ public class LargeLabStructureStructure {
 			biomeCriteria = true;
 		if (new ResourceLocation("giant_tree_taiga").equals(event.getName()))
 			biomeCriteria = true;
+		if (new ResourceLocation("plains").equals(event.getName()))
+			biomeCriteria = true;
 		if (new ResourceLocation("savanna").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_taiga").equals(event.getName()))
+			biomeCriteria = true;
+		if (new ResourceLocation("snowy_tundra").equals(event.getName()))
 			biomeCriteria = true;
 		if (new ResourceLocation("sunflower_plains").equals(event.getName()))
 			biomeCriteria = true;

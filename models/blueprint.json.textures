@@ -13,6 +13,13 @@
         "1": "cockpit_blueprint_item"
       },
       "name": "cockpit"
+    },
+    "cargo": {
+      "map": {
+        "0": "blueprint_medium",
+        "1": "storage_blueprint_item"
+      },
+      "name": "cargo"
     }
   }
 }
