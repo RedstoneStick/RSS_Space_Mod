@@ -20,6 +20,20 @@
         "1": "storage_blueprint_item"
       },
       "name": "cargo"
+    },
+    "engine": {
+      "map": {
+        "0": "blueprint_medium",
+        "1": "blueprint_medium"
+      },
+      "name": "engine"
+    },
+    "galacticraft": {
+      "map": {
+        "0": "schematic_rocket_t2",
+        "1": "schematic_rocket_t2"
+      },
+      "name": "galacticraft"
     }
   }
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "rss_space_mod:custom/blueprint",
+  "textures": {
+    "0": "rss_space_mod:blocks/schematic_rocket_t2",
+    "1": "rss_space_mod:blocks/schematic_rocket_t2",
+    "particle": "rss_space_mod:items/schematic_rocket_t2"
+  }
+}
