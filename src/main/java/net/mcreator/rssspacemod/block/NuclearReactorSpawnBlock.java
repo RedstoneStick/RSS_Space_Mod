@@ -27,7 +27,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.rssspacemod.procedures.UnfinishedMessageProcedure;
-import net.mcreator.rssspacemod.itemgroup.OresCreativeTabItemGroup;
+import net.mcreator.rssspacemod.itemgroup.MachinesCreativeTabItemGroup;
 import net.mcreator.rssspacemod.RssSpaceModModElements;
 
 import java.util.stream.Stream;
@@ -49,8 +49,8 @@ public class NuclearReactorSpawnBlock extends RssSpaceModModElements.ModElement 
 	@Override
 	public void initElements() {
 		elements.blocks.add(() -> new CustomBlock());
-		elements.items
-				.add(() -> new BlockItem(block, new Item.Properties().group(OresCreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
+		elements.items.add(
+				() -> new BlockItem(block, new Item.Properties().group(MachinesCreativeTabItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
 
 	@Override

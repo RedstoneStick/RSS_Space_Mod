@@ -1,7 +1,19 @@
 {
   "variants": {
-    "": {
+    "facing=north": {
       "model": "rss_space_mod:block/research_station_spawn"
+    },
+    "facing=east": {
+      "model": "rss_space_mod:block/research_station_spawn",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rss_space_mod:block/research_station_spawn",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rss_space_mod:block/research_station_spawn",
+      "y": 270
     }
   }
 }
