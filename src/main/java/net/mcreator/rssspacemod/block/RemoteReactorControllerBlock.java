@@ -16,7 +16,6 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
@@ -34,12 +33,12 @@ import java.util.Collections;
 import java.util.AbstractMap;
 
 @RssSpaceModModElements.ModElement.Tag
-public class ResearchStationSpawnBlock extends RssSpaceModModElements.ModElement {
-	@ObjectHolder("rss_space_mod:research_station_spawn")
+public class RemoteReactorControllerBlock extends RssSpaceModModElements.ModElement {
+	@ObjectHolder("rss_space_mod:remote_reactor_controller")
 	public static final Block block = null;
 
-	public ResearchStationSpawnBlock(RssSpaceModModElements instance) {
-		super(instance, 52);
+	public RemoteReactorControllerBlock(RssSpaceModModElements instance) {
+		super(instance, 53);
 	}
 
 	@Override
@@ -51,19 +50,14 @@ public class ResearchStationSpawnBlock extends RssSpaceModModElements.ModElement
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(2)
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2f, 2f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("research_station_spawn");
+			setRegistryName("remote_reactor_controller");
 		}
 
 		@Override
 		public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
 			return 15;
-		}
-
-		@Override
-		public MaterialColor getMaterialColor() {
-			return MaterialColor.LIGHT_GRAY;
 		}
 
 		@Override

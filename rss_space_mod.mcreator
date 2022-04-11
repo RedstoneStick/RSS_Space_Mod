@@ -888,6 +888,32 @@
       "locked_code": false,
       "registry_name": "research_station_spawn",
       "path": "~/Structures/ResearchOutpost"
+    },
+    {
+      "name": "RemoteReactorController",
+      "type": "block",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_reactor_controller",
+      "path": "~/Structures/NuclearPowerPlant"
+    },
+    {
+      "name": "UnfinishedMessage",
+      "type": "procedure",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unfinished_message",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GeneralProcedures"
     }
   ],
   "variable_elements": [
@@ -958,6 +984,7 @@
       "item.rss_space_mod.armor_astronaut_suit_helmet": "Astronaut Suit Helmet",
       "block.rss_space_mod.ore_black_sand_titanium": "Titanium Ore In Black Sand",
       "block.rss_space_mod.sellafite_normal": "Sellafite",
+      "block.rss_space_mod.remote_reactor_controller": "Remote Reactor Controller",
       "block.rss_space_mod.radon": "Radon Gas",
       "item.rss_tech_mod.moon_teleporter_item": "Moon Teleporter Item",
       "biome.rss_space_mod.moon_cracks": "Moon Cracks",
