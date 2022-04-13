@@ -1,0 +1,9 @@
+{
+  "parent": "rss_space_mod:custom/astronaut_suit",
+  "textures": {
+    "all": "rss_space_mod:blocks/hazmat_suit",
+    "particle": "rss_space_mod:blocks/hazmat_suit",
+    "0": "rss_space_mod:blocks/hazmat_suit_texture",
+    "1": "rss_space_mod:blocks/stand"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "rss_space_mod:block/hazmat_suit_stand"
+    },
+    "facing=east": {
+      "model": "rss_space_mod:block/hazmat_suit_stand",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "rss_space_mod:block/hazmat_suit_stand",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "rss_space_mod:block/hazmat_suit_stand",
+      "y": 270
+    }
+  }
+}

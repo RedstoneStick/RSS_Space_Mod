@@ -4,7 +4,7 @@
   "definition": {
     "name": "RSS'SM Machines",
     "icon": {
-      "value": "Blocks.FURNACE"
+      "value": "CUSTOM:RedstoneGeneratorOn"
     },
     "showSearch": false
   }

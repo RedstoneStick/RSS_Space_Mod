@@ -29,6 +29,7 @@ import net.minecraft.item.BlockItem;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
+import net.minecraft.block.material.PushReaction;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
 import net.minecraft.block.HorizontalBlock;
@@ -140,6 +141,11 @@ public class AstronautSuitStandBlock extends RssSpaceModModElements.ModElement {
 			if (context.getFace() == Direction.UP || context.getFace() == Direction.DOWN)
 				return this.getDefaultState().with(FACING, Direction.NORTH);
 			return this.getDefaultState().with(FACING, context.getFace());
+		}
+
+		@Override
+		public PushReaction getPushReaction(BlockState state) {
+			return PushReaction.DESTROY;
 		}
 
 		@Override

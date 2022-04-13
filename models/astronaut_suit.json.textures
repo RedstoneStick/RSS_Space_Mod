@@ -6,6 +6,13 @@
         "1": "stand"
       },
       "name": "default"
+    },
+    "hazmatsuit": {
+      "map": {
+        "0": "hazmat_suit_texture",
+        "1": "stand"
+      },
+      "name": "hazmatsuit"
     }
   }
 }

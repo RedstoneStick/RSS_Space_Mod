@@ -49,7 +49,7 @@ public class InstaNoodlesCurryItem extends RssSpaceModModElements.ModElement {
 		@Override
 		public void addInformation(ItemStack itemstack, World world, List<ITextComponent> list, ITooltipFlag flag) {
 			super.addInformation(itemstack, world, list, flag);
-			list.add(new StringTextComponent("Expired a very long time ago"));
+			list.add(new StringTextComponent("Expired a veeery long time ago"));
 		}
 	}
 }
