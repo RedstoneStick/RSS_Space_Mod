@@ -1,0 +1,33 @@
+{
+  "_fv": 24,
+  "_type": "food",
+  "definition": {
+    "renderType": 0,
+    "texture": "yellowcake",
+    "customModelName": "Normal",
+    "name": "Yellowcake",
+    "rarity": "COMMON",
+    "specialInfo": [
+      "§a[Radioactive]",
+      "§e1,0RAD/s",
+      "§336 Billion kCal"
+    ],
+    "creativeTab": {
+      "value": "CUSTOM:ItemsCreativeTab"
+    },
+    "stackSize": 64,
+    "nutritionalValue": 20,
+    "saturation": 1.0,
+    "eatingSpeed": 100,
+    "resultItem": {
+      "value": ""
+    },
+    "forDogs": false,
+    "isAlwaysEdible": true,
+    "animation": "eat",
+    "hasGlow": false,
+    "onEaten": {
+      "name": "YellowcakeFoodEaten"
+    }
+  }
+}

@@ -27,7 +27,7 @@ public class CargoBlueprintItem extends RssSpaceModModElements.ModElement {
 	public static final Item block = null;
 
 	public CargoBlueprintItem(RssSpaceModModElements instance) {
-		super(instance, 42);
+		super(instance, 52);
 	}
 
 	@Override

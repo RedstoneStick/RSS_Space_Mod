@@ -13,7 +13,7 @@ import net.mcreator.rssspacemod.RssSpaceModModElements;
 @RssSpaceModModElements.ModElement.Tag
 public class OresCreativeTabItemGroup extends RssSpaceModModElements.ModElement {
 	public OresCreativeTabItemGroup(RssSpaceModModElements instance) {
-		super(instance, 4);
+		super(instance, 61);
 	}
 
 	@Override

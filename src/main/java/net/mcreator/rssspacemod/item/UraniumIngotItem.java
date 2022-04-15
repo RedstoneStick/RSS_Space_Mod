@@ -23,7 +23,7 @@ public class UraniumIngotItem extends RssSpaceModModElements.ModElement {
 	public static final Item block = null;
 
 	public UraniumIngotItem(RssSpaceModModElements instance) {
-		super(instance, 61);
+		super(instance, 29);
 	}
 
 	@Override

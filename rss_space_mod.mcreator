@@ -3,7 +3,7 @@
     {
       "name": "MoonCracks",
       "type": "biome",
-      "sortid": 1,
+      "sortid": 59,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moon_cracks",
@@ -12,7 +12,7 @@
     {
       "name": "Moon",
       "type": "dimension",
-      "sortid": 2,
+      "sortid": 1,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moon",
@@ -24,7 +24,7 @@
     {
       "name": "MoonTransport",
       "type": "procedure",
-      "sortid": 3,
+      "sortid": 60,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moon_transport",
@@ -41,7 +41,7 @@
     {
       "name": "MoonTeleporterItem",
       "type": "item",
-      "sortid": 3,
+      "sortid": 2,
       "compiles": true,
       "locked_code": false,
       "registry_name": "moon_teleporter_item",
@@ -50,7 +50,7 @@
     {
       "name": "OresCreativeTab",
       "type": "tab",
-      "sortid": 4,
+      "sortid": 61,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ores_creative_tab",
@@ -59,7 +59,7 @@
     {
       "name": "UraniumOre",
       "type": "block",
-      "sortid": 4,
+      "sortid": 15,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_ore",
@@ -68,7 +68,7 @@
     {
       "name": "Radon",
       "type": "block",
-      "sortid": 5,
+      "sortid": 16,
       "compiles": true,
       "locked_code": false,
       "registry_name": "radon",
@@ -77,7 +77,7 @@
     {
       "name": "MagnesiumOre",
       "type": "block",
-      "sortid": 7,
+      "sortid": 17,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magnesium_ore",
@@ -86,7 +86,7 @@
     {
       "name": "IsNeighbouringBlockOnFire",
       "type": "procedure",
-      "sortid": 8,
+      "sortid": 62,
       "compiles": true,
       "locked_code": false,
       "registry_name": "is_neighbouring_block_on_fire",
@@ -116,7 +116,7 @@
     {
       "name": "MagnesOreIgnition",
       "type": "procedure",
-      "sortid": 8,
+      "sortid": 63,
       "compiles": true,
       "locked_code": false,
       "registry_name": "magnes_ore_ignition",
@@ -145,7 +145,7 @@
     {
       "name": "UraniumGeneratesRadon",
       "type": "procedure",
-      "sortid": 9,
+      "sortid": 64,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_generates_radon",
@@ -174,7 +174,7 @@
     {
       "name": "DevToolsCreativeTab",
       "type": "tab",
-      "sortid": 10,
+      "sortid": 65,
       "compiles": true,
       "locked_code": false,
       "registry_name": "dev_tools_creative_tab",
@@ -183,7 +183,7 @@
     {
       "name": "ArmorAstronautSuit",
       "type": "armor",
-      "sortid": 11,
+      "sortid": 3,
       "compiles": true,
       "locked_code": false,
       "registry_name": "armor_astronaut_suit",
@@ -198,7 +198,7 @@
     {
       "name": "ToolsAndArmourCreativeTab",
       "type": "tab",
-      "sortid": 12,
+      "sortid": 66,
       "compiles": true,
       "locked_code": false,
       "registry_name": "tools_and_armour_creative_tab",
@@ -207,7 +207,7 @@
     {
       "name": "MachinesCreativeTab",
       "type": "tab",
-      "sortid": 14,
+      "sortid": 67,
       "compiles": true,
       "locked_code": false,
       "registry_name": "machines_creative_tab",
@@ -216,7 +216,7 @@
     {
       "name": "OreBlackSand",
       "type": "block",
-      "sortid": 15,
+      "sortid": 18,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_black_sand",
@@ -225,7 +225,7 @@
     {
       "name": "OreBlackSandDiamond",
       "type": "block",
-      "sortid": 16,
+      "sortid": 19,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_black_sand_diamond",
@@ -234,7 +234,7 @@
     {
       "name": "OreBlackSandGold",
       "type": "block",
-      "sortid": 17,
+      "sortid": 20,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_black_sand_gold",
@@ -243,7 +243,7 @@
     {
       "name": "OreBlackSandPlatinum",
       "type": "block",
-      "sortid": 18,
+      "sortid": 21,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_black_sand_platinum",
@@ -252,7 +252,7 @@
     {
       "name": "OreBlackSandThorium",
       "type": "block",
-      "sortid": 19,
+      "sortid": 22,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_black_sand_thorium",
@@ -261,7 +261,7 @@
     {
       "name": "OreBlackSandTitanium",
       "type": "block",
-      "sortid": 20,
+      "sortid": 23,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_black_sand_titanium",
@@ -270,7 +270,7 @@
     {
       "name": "OreBlackSandUranium",
       "type": "block",
-      "sortid": 21,
+      "sortid": 24,
       "compiles": true,
       "locked_code": false,
       "registry_name": "ore_black_sand_uranium",
@@ -279,7 +279,7 @@
     {
       "name": "PlacerDepositTop",
       "type": "block",
-      "sortid": 22,
+      "sortid": 4,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_top",
@@ -288,7 +288,7 @@
     {
       "name": "PlacerDepositTopBlockAdded",
       "type": "procedure",
-      "sortid": 22,
+      "sortid": 68,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_top_block_added",
@@ -317,7 +317,7 @@
     {
       "name": "PlacerDepositBottomBlockAdded",
       "type": "procedure",
-      "sortid": 23,
+      "sortid": 69,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_bottom_block_added",
@@ -346,7 +346,7 @@
     {
       "name": "PlacerDepositBottom",
       "type": "block",
-      "sortid": 23,
+      "sortid": 5,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_bottom",
@@ -355,7 +355,7 @@
     {
       "name": "PlacerDepositMidBlockAdded",
       "type": "procedure",
-      "sortid": 24,
+      "sortid": 70,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_mid_block_added",
@@ -384,7 +384,7 @@
     {
       "name": "PlacerDepositMid",
       "type": "block",
-      "sortid": 25,
+      "sortid": 6,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_mid",
@@ -393,7 +393,7 @@
     {
       "name": "RSSSMStructureGenerate",
       "type": "gamerule",
-      "sortid": 27,
+      "sortid": 71,
       "compiles": true,
       "locked_code": false,
       "registry_name": "rSSSMStructureGenerate",
@@ -405,7 +405,7 @@
     {
       "name": "PlacerDepositMainUpdateTick",
       "type": "procedure",
-      "sortid": 28,
+      "sortid": 72,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_main_update_tick",
@@ -434,7 +434,7 @@
     {
       "name": "PlacerDepositMain",
       "type": "block",
-      "sortid": 28,
+      "sortid": 7,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_main",
@@ -443,7 +443,7 @@
     {
       "name": "PlacerDepositStructure",
       "type": "structure",
-      "sortid": 29,
+      "sortid": 73,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_structure",
@@ -452,7 +452,7 @@
     {
       "name": "PlacerDepositStructureAdditionalGenerationCondition",
       "type": "procedure",
-      "sortid": 30,
+      "sortid": 74,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_structure_additional_generation_condition",
@@ -482,7 +482,7 @@
     {
       "name": "PlacerDepositStructureOnStructureInstanceGenerated",
       "type": "procedure",
-      "sortid": 31,
+      "sortid": 75,
       "compiles": true,
       "locked_code": false,
       "registry_name": "placer_deposit_structure_on_structure_instance_generated",
@@ -511,7 +511,7 @@
     {
       "name": "AstronautSuitStand",
       "type": "block",
-      "sortid": 32,
+      "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "astronaut_suit_stand",
@@ -520,7 +520,7 @@
     {
       "name": "ItemsCreativeTab",
       "type": "tab",
-      "sortid": 33,
+      "sortid": 76,
       "compiles": true,
       "locked_code": false,
       "registry_name": "items_creative_tab",
@@ -529,7 +529,7 @@
     {
       "name": "CockpitBlueprint",
       "type": "item",
-      "sortid": 33,
+      "sortid": 51,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cockpit_blueprint",
@@ -538,7 +538,7 @@
     {
       "name": "LabLargeMainGeneratorUpdateTick",
       "type": "procedure",
-      "sortid": 34,
+      "sortid": 77,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_large_main_generator_update_tick",
@@ -567,7 +567,7 @@
     {
       "name": "LabLargeMainGenerator",
       "type": "block",
-      "sortid": 34,
+      "sortid": 9,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_large_main_generator",
@@ -576,7 +576,7 @@
     {
       "name": "LargeLabStructureOnStructureInstanceGenerated",
       "type": "procedure",
-      "sortid": 35,
+      "sortid": 78,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_lab_structure_on_structure_instance_generated",
@@ -605,7 +605,7 @@
     {
       "name": "LargeLabStructure",
       "type": "structure",
-      "sortid": 35,
+      "sortid": 79,
       "compiles": true,
       "locked_code": false,
       "registry_name": "large_lab_structure",
@@ -614,7 +614,7 @@
     {
       "name": "RedstoneGeneratorOnRedstoneOff",
       "type": "procedure",
-      "sortid": 36,
+      "sortid": 80,
       "compiles": true,
       "locked_code": false,
       "registry_name": "redstone_generator_on_redstone_off",
@@ -643,7 +643,7 @@
     {
       "name": "RedstoneGeneratorOn",
       "type": "block",
-      "sortid": 36,
+      "sortid": 55,
       "compiles": true,
       "locked_code": false,
       "registry_name": "redstone_generator_on",
@@ -652,7 +652,7 @@
     {
       "name": "RedstoneGeneratorOffRedstoneOn",
       "type": "procedure",
-      "sortid": 37,
+      "sortid": 81,
       "compiles": true,
       "locked_code": false,
       "registry_name": "redstone_generator_off_redstone_on",
@@ -681,7 +681,7 @@
     {
       "name": "RedstoneGeneratorOff",
       "type": "block",
-      "sortid": 37,
+      "sortid": 10,
       "compiles": true,
       "locked_code": false,
       "registry_name": "redstone_generator_off",
@@ -690,7 +690,7 @@
     {
       "name": "LabLootTable",
       "type": "loottable",
-      "sortid": 38,
+      "sortid": 82,
       "compiles": true,
       "locked_code": true,
       "registry_name": "lab_loot_table",
@@ -699,7 +699,7 @@
     {
       "name": "StorageLootTable",
       "type": "loottable",
-      "sortid": 39,
+      "sortid": 83,
       "compiles": true,
       "locked_code": true,
       "registry_name": "storage_loot_table",
@@ -708,7 +708,7 @@
     {
       "name": "FoodStorageLootTable",
       "type": "loottable",
-      "sortid": 40,
+      "sortid": 84,
       "compiles": true,
       "locked_code": true,
       "registry_name": "food_storage_loot_table",
@@ -717,7 +717,7 @@
     {
       "name": "RichesLootTable",
       "type": "loottable",
-      "sortid": 41,
+      "sortid": 85,
       "compiles": true,
       "locked_code": true,
       "registry_name": "riches_loot_table",
@@ -726,7 +726,7 @@
     {
       "name": "CargoBlueprint",
       "type": "item",
-      "sortid": 42,
+      "sortid": 52,
       "compiles": true,
       "locked_code": false,
       "registry_name": "cargo_blueprint",
@@ -735,7 +735,7 @@
     {
       "name": "LabSmallMainGeneratorUpdateTick",
       "type": "procedure",
-      "sortid": 43,
+      "sortid": 86,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_small_main_generator_update_tick",
@@ -764,7 +764,7 @@
     {
       "name": "LabSmallMainGenerator",
       "type": "block",
-      "sortid": 43,
+      "sortid": 11,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_small_main_generator",
@@ -773,7 +773,7 @@
     {
       "name": "LabSmallStructureOnStructureInstanceGenerated",
       "type": "procedure",
-      "sortid": 44,
+      "sortid": 87,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_small_structure_on_structure_instance_generated",
@@ -802,7 +802,7 @@
     {
       "name": "LabSmallStructure",
       "type": "structure",
-      "sortid": 44,
+      "sortid": 88,
       "compiles": true,
       "locked_code": false,
       "registry_name": "lab_small_structure",
@@ -811,7 +811,7 @@
     {
       "name": "NuclearReactorSpawn",
       "type": "block",
-      "sortid": 45,
+      "sortid": 56,
       "compiles": true,
       "locked_code": false,
       "registry_name": "nuclear_reactor_spawn",
@@ -820,7 +820,7 @@
     {
       "name": "SellafiteSlaked",
       "type": "block",
-      "sortid": 46,
+      "sortid": 25,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sellafite_slaked",
@@ -829,7 +829,7 @@
     {
       "name": "SellafiteNormal",
       "type": "block",
-      "sortid": 47,
+      "sortid": 26,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sellafite_normal",
@@ -838,7 +838,7 @@
     {
       "name": "SellafiteHot",
       "type": "block",
-      "sortid": 48,
+      "sortid": 27,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sellafite_hot",
@@ -847,7 +847,7 @@
     {
       "name": "SellafiteBlazing",
       "type": "block",
-      "sortid": 49,
+      "sortid": 28,
       "compiles": true,
       "locked_code": false,
       "registry_name": "sellafite_blazing",
@@ -856,7 +856,7 @@
     {
       "name": "GalacticraftRocketBlueprint",
       "type": "item",
-      "sortid": 50,
+      "sortid": 53,
       "compiles": true,
       "locked_code": false,
       "registry_name": "galacticraft_rocket_blueprint",
@@ -865,7 +865,7 @@
     {
       "name": "EngineBlueprint",
       "type": "item",
-      "sortid": 51,
+      "sortid": 54,
       "compiles": true,
       "locked_code": false,
       "registry_name": "engine_blueprint",
@@ -874,7 +874,7 @@
     {
       "name": "ResearchStationSpawn",
       "type": "block",
-      "sortid": 52,
+      "sortid": 57,
       "compiles": true,
       "locked_code": false,
       "registry_name": "research_station_spawn",
@@ -883,7 +883,7 @@
     {
       "name": "RemoteReactorController",
       "type": "block",
-      "sortid": 53,
+      "sortid": 58,
       "compiles": true,
       "locked_code": false,
       "registry_name": "remote_reactor_controller",
@@ -892,7 +892,7 @@
     {
       "name": "UnfinishedMessage",
       "type": "procedure",
-      "sortid": 54,
+      "sortid": 89,
       "compiles": true,
       "locked_code": false,
       "registry_name": "unfinished_message",
@@ -909,7 +909,7 @@
     {
       "name": "GCRocket",
       "type": "livingentity",
-      "sortid": 55,
+      "sortid": 12,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gc_rocket",
@@ -918,7 +918,7 @@
     {
       "name": "CrashedSattelite",
       "type": "livingentity",
-      "sortid": 56,
+      "sortid": 13,
       "compiles": true,
       "locked_code": false,
       "registry_name": "crashed_sattelite",
@@ -927,7 +927,7 @@
     {
       "name": "GCRocketRightClickedOnEntity",
       "type": "procedure",
-      "sortid": 57,
+      "sortid": 90,
       "compiles": true,
       "locked_code": false,
       "registry_name": "gc_rocket_right_clicked_on_entity",
@@ -945,7 +945,7 @@
     {
       "name": "InstaNoodlesCurry",
       "type": "food",
-      "sortid": 58,
+      "sortid": 50,
       "compiles": true,
       "locked_code": false,
       "registry_name": "insta_noodles_curry",
@@ -954,7 +954,7 @@
     {
       "name": "ResearchOutpostLootTable",
       "type": "loottable",
-      "sortid": 59,
+      "sortid": 91,
       "compiles": true,
       "locked_code": false,
       "registry_name": "research_outpost_loot_table",
@@ -963,7 +963,7 @@
     {
       "name": "HazmatSuitStand",
       "type": "block",
-      "sortid": 60,
+      "sortid": 14,
       "compiles": true,
       "locked_code": false,
       "registry_name": "hazmat_suit_stand",
@@ -972,110 +972,722 @@
     {
       "name": "UraniumIngot",
       "type": "item",
-      "sortid": 61,
+      "sortid": 29,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_ingot",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "UraniumNugget",
       "type": "item",
-      "sortid": 62,
+      "sortid": 30,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_nugget",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "Uranium238Ingot",
       "type": "item",
-      "sortid": 63,
+      "sortid": 33,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_238_ingot",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "Uranium238Nugget",
       "type": "item",
-      "sortid": 64,
+      "sortid": 34,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_238_nugget",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "Uranium235Ingot",
       "type": "item",
-      "sortid": 65,
+      "sortid": 35,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_235_ingot",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "Uranium235Nugget",
       "type": "item",
-      "sortid": 66,
+      "sortid": 36,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_235_nugget",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "Thorium232Ingot",
       "type": "item",
-      "sortid": 67,
+      "sortid": 39,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thorium_232_ingot",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "Thorium232Nugget",
       "type": "item",
-      "sortid": 68,
+      "sortid": 40,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thorium_232_nugget",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "UraniumFuelIngot",
       "type": "item",
-      "sortid": 69,
+      "sortid": 37,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_fuel_ingot",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "UraniumFuelNugget",
       "type": "item",
-      "sortid": 70,
+      "sortid": 38,
       "compiles": true,
       "locked_code": false,
       "registry_name": "uranium_fuel_nugget",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "ThoriumFuelIngot",
       "type": "item",
-      "sortid": 71,
+      "sortid": 43,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thorium_fuel_ingot",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
     },
     {
       "name": "ThoriumFuelNugget",
       "type": "item",
-      "sortid": 72,
+      "sortid": 44,
       "compiles": true,
       "locked_code": false,
       "registry_name": "thorium_fuel_nugget",
-      "path": "~/Items/Ingots"
+      "path": "~/Items/Minerals"
+    },
+    {
+      "name": "UraniumHexaflouriteUpdateTick",
+      "type": "procedure",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_hexaflourite_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Fluids/Fluid Gasses"
+    },
+    {
+      "name": "UraniumHexaflourite",
+      "type": "fluid",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_hexaflourite",
+      "metadata": {
+        "gb": false
+      },
+      "path": "~/Fluids/Fluid Gasses"
+    },
+    {
+      "name": "RadonEntityCollidesInTheBlock",
+      "type": "procedure",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "radon_entity_collides_in_the_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Gasses"
+    },
+    {
+      "name": "UraniumCrushed",
+      "type": "item",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_crushed",
+      "path": "~/Items/Minerals"
+    },
+    {
+      "name": "UraniumPowder",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "uranium_powder",
+      "path": "~/Items/Minerals"
+    },
+    {
+      "name": "ThoriumCrushed",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_crushed",
+      "path": "~/Items/Minerals"
+    },
+    {
+      "name": "ThoriumPowder",
+      "type": "item",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_powder",
+      "path": "~/Items/Minerals"
+    },
+    {
+      "name": "Sulfur",
+      "type": "item",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sulfur",
+      "path": "~/Items/Minerals"
+    },
+    {
+      "name": "YellowcakeFoodEaten",
+      "type": "procedure",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowcake_food_eaten",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Yellowcake",
+      "type": "food",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowcake",
+      "path": "~/Items"
+    },
+    {
+      "name": "FlouriteCluster",
+      "type": "item",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flourite_cluster",
+      "path": "~/Items/Minerals"
+    },
+    {
+      "name": "FlouritePowder",
+      "type": "item",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flourite_powder",
+      "path": "~/Items/Minerals"
+    },
+    {
+      "name": "NuclearPowerPlantLootTable",
+      "type": "loottable",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_power_plant_loot_table",
+      "path": "~/Structures/LootTables"
+    },
+    {
+      "name": "PowerPlantMainGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_plant_main_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/NuclearPowerPlant"
+    },
+    {
+      "name": "PowerPlantMainGenerator",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_plant_main_generator",
+      "path": "~/Structures/NuclearPowerPlant"
+    },
+    {
+      "name": "NuclearPowerPlantStructureOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_power_plant_structure_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/NuclearPowerPlant"
+    },
+    {
+      "name": "NuclearPowerPlantStructure",
+      "type": "structure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_power_plant_structure",
+      "path": "~/Structures/NuclearPowerPlant"
+    },
+    {
+      "name": "ResearchOutpostMainGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "research_outpost_main_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/ResearchOutpost"
+    },
+    {
+      "name": "ResearchOutpostMainGenerator",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "research_outpost_main_generator",
+      "path": "~/Structures/ResearchOutpost"
+    },
+    {
+      "name": "ResearchOutpostStructureOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "research_outpost_structure_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/ResearchOutpost"
+    },
+    {
+      "name": "ResearchOutpostStructure",
+      "type": "structure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "research_outpost_structure",
+      "path": "~/Structures/ResearchOutpost"
+    },
+    {
+      "name": "CrashedSatteliteMainGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashed_sattelite_main_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/CrashedSattelite"
+    },
+    {
+      "name": "CrashedSatteliteMainGenerator",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashed_sattelite_main_generator",
+      "path": "~/Structures/CrashedSattelite"
+    },
+    {
+      "name": "CrashedRocketMainGeneratorOnUpdateTick",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashed_rocket_main_generator_on_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/CrashedRocket"
+    },
+    {
+      "name": "CrashedRocketMainGenerator",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashed_rocket_main_generator",
+      "path": "~/Structures/CrashedRocket"
+    },
+    {
+      "name": "CrashedSatteliteStructureOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashed_sattelite_structure_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/CrashedSattelite"
+    },
+    {
+      "name": "CrashedSatteliteStructure",
+      "type": "structure",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashed_sattelite_structure",
+      "path": "~/Structures/CrashedSattelite"
+    },
+    {
+      "name": "CrashedRocketStructureOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashed_rocket_structure_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/CrashedRocket"
+    },
+    {
+      "name": "CrashedRocketStructure",
+      "type": "structure",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crashed_rocket_structure",
+      "path": "~/Structures/CrashedRocket"
+    },
+    {
+      "name": "SellafieldSMainGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellafield_s_main_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/Sellafield"
+    },
+    {
+      "name": "SellafieldSMainGenerator",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellafield_s_main_generator",
+      "path": "~/Structures/Sellafield"
+    },
+    {
+      "name": "SellafieldMMainGeneratorUpdateTick",
+      "type": "procedure",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellafield_m_main_generator_update_tick",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/Sellafield"
+    },
+    {
+      "name": "SellafieldMMainGenerator",
+      "type": "block",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellafield_m_main_generator",
+      "path": "~/Structures/Sellafield"
+    },
+    {
+      "name": "SellafieldSStructureOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellafield_s_structure_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/Sellafield"
+    },
+    {
+      "name": "SellafieldSStructure",
+      "type": "structure",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellafield_s_structure",
+      "path": "~/Structures/Sellafield"
+    },
+    {
+      "name": "SellafieldMStructureOnStructureInstanceGenerated",
+      "type": "procedure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellafield_m_structure_on_structure_instance_generated",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Structures/Sellafield"
+    },
+    {
+      "name": "SellafieldMStructure",
+      "type": "structure",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sellafield_m_structure",
+      "path": "~/Structures/Sellafield"
     }
   ],
   "variable_elements": [
@@ -1113,78 +1725,99 @@
       "block.rss_space_mod.ore_black_sand_diamond": "Diamond Ore In Black Sand",
       "item.rss_space_mod.armor_astronaut_suit_boots": "Armor Astronaut Suit Boots",
       "block.rss_space_mod.sellafite_hot": "Hot Sellafite",
-      "item.rss_space_mod.engine_blueprint": "Engine Blueprint",
       "block.rss_tech_mod.uranium_ore": "Uranium Ore",
       "itemGroup.tabores_creative_tab": "RSS\u0027SM Ores and Blocks",
-      "item.rss_space_mod.cargo_blueprint": "T1 Rocket Storage Blueprint",
-      "item.rss_space_mod.uranium_235_nugget": "Uranium-235 Nugget",
       "item.rss_space_mod.thorium_232_nugget": "Thorium-232 Nugget",
-      "entity.rss_space_mod.gc_rocket": "GC Rocket",
-      "block.rss_space_mod.ore_black_sand": "Black Sand",
-      "gamerule.rsssm_structure_generate": "structureGenerate",
+      "item.rss_space_mod.uranium_235_nugget": "Uranium-235 Nugget",
+      "item.rss_space_mod.uranium_crushed": "Crushed Uranium",
       "item.rss_space_mod.uranium_238_nugget": "Uranium-238 Nugget",
       "block.rss_tech_mod.magnesium_ore": "Magnesium Ore",
-      "item.rss_space_mod.uranium_fuel_nugget": "Nugget of Uranium Fuel",
       "block.rss_space_mod.ore_black_sand_uranium": "Uranium Ore In Black Sand",
-      "gamerule.rSSSMStructureGenerate.description": "defines if the random structures from RSS SM will generate",
-      "block.rss_space_mod.redstone_generator_on": "Redstone Generator",
       "item.rss_space_mod.moon_teleporter_item": "Moon Teleporter Item",
-      "entity.rss_space_mod.crashed_sattelite": "Crashed Sattelite",
+      "block.rss_space_mod.power_plant_main_generator": "Power Plant Main Generator",
+      "item.rss_space_mod.uranium_hexaflourite_bucket": "Bucket of Uranium Hexaflourite",
       "block.rss_space_mod.sellafite_slaked": "Slaked Sellafite ",
-      "block.rss_space_mod.magnesium_ore": "Magnesium Ore",
-      "item.rss_tech_mod.moon": "Moon Portal Igniter",
       "itemGroup.tabmachines_creative_tab": "RSS\u0027SM Machines",
       "itemGroup.tabdev_tools_creative_tab": "RSS\u0027SM Admin Tools",
-      "gamerule.rsssm_structure_generate.description": "defines if the random structures from RSS SM will generate",
       "item.rss_space_mod.uranium_fuel_ingot": "Ingot of Uranium Fuel",
-      "item.rss_tech_mod.armor_astronaut_suit_chestplate": "Astronaut Suit Body",
-      "itemGroup.tabtools_and_armour_creative_tab": "RSS\u0027SM Equipment",
       "block.rss_tech_mod.radon": "Radon Gas",
-      "item.rss_tech_mod.armor_astronaut_suit_leggings": "Astronaut Suit Leggings",
       "biome.rss_tech_mod.moon_cracks": "Moon Cracks",
       "block.rss_space_mod.lab_small_main_generator": "Lab Small Main Generator",
-      "item.rss_tech_mod.armor_astronaut_suit_helmet": "Astronaut Suit Helmet",
+      "death.attack.radiation": "%1$s died from radiation poisoning",
       "gamerule.rSSSMStructureGenerate": "RSSSM Structure Generate",
-      "block.rss_space_mod.sellafite_blazing": "Blazing Sellafite",
-      "block.rss_space_mod.ore_black_sand_gold": "Gold Ore In Black Sand",
+      "death.attack.overeat": "%1$s took too much calories in a too short amount of time",
       "item.rss_space_mod.galacticraft_rocket_blueprint": "Galacticraft Rocket Blueprint",
       "block.rss_space_mod.placer_deposit_main": "Placer Deposit Main",
+      "item.rss_space_mod.flourite_cluster": "Flourite Cluster",
       "item.rss_space_mod.armor_astronaut_suit_helmet": "Astronaut Suit Helmet",
       "block.rss_space_mod.ore_black_sand_titanium": "Titanium Ore In Black Sand",
       "item.rss_space_mod.uranium_nugget": "Uranium Nugget",
       "block.rss_space_mod.sellafite_normal": "Sellafite",
       "item.rss_space_mod.crashed_sattelite_spawn_egg": "Crashed Sattelite Spawn Egg",
-      "item.rss_space_mod.uranium_ingot": "Uranium Ingot",
-      "block.rss_space_mod.remote_reactor_controller": "Remote Reactor Controller",
+      "item.rss_space_mod.thorium_powder": "Thorium Powder",
       "block.rss_space_mod.radon": "Radon Gas",
       "item.rss_tech_mod.moon_teleporter_item": "Moon Teleporter Item",
       "biome.rss_space_mod.moon_cracks": "Moon Cracks",
-      "item.rss_space_mod.insta_noodles_curry": "Curry Flavoured Insta Noodles",
-      "item.rss_space_mod.cockpit_blueprint": "T1 Rocket Cockpit Blueprint",
       "block.rss_space_mod.hazmat_suit_stand": "Hazmat Suit Stand",
       "item.rss_space_mod.armor_astronaut_suit_leggings": "Astronaut Suit Leggings",
-      "item.rss_space_mod.thorium_fuel_nugget": "Nugget of Thorium Fuel",
-      "block.rss_space_mod.uranium_ore": "Uranium Ore",
       "block.rss_space_mod.astronaut_suit_stand": "Astronaut Suit Stand",
-      "item.rss_tech_mod.armor_astronaut_suit_boots": "Armor Astronaut Suit Boots",
       "block.rss_space_mod.redstone_generator_off": "Redstone Generator Off",
-      "block.rss_space_mod.placer_deposit_mid": "Placer Deposit Mid",
-      "item.rss_space_mod.moon": "Moon Portal Igniter",
+      "block.rss_space_mod.sellafield_s_main_generator": "Sellafield S Main Generator",
+      "block.rss_space_mod.placer_deposit_bottom": "Placer Deposit Bottom",
+      "item.rss_space_mod.thorium_232_ingot": "Thorium-232 Ingot",
+      "death.attack.radon": "%1$s breathed in too much Radon",
+      "item.rss_space_mod.uranium_235_ingot": "Uranium-235 Ingot",
+      "block.rss_space_mod.ore_black_sand_thorium": "Thorium Ore In Black Sand",
+      "item.rss_space_mod.gc_rocket_spawn_egg": "GC Rocket Spawn Egg",
+      "block.rss_space_mod.lab_large_main_generator": "Lab Large Main Generator",
+      "block.rss_space_mod.research_outpost_main_generator": "Research Outpost Main Generator",
+      "item.rss_space_mod.sulfur": "Sulfur",
+      "item.rss_space_mod.engine_blueprint": "Engine Blueprint",
+      "fluid.rss_space_mod.uranium_hexaflourite": "Uranium Hexaflourite",
+      "item.rss_space_mod.uranium_powder": "Uranium Powder",
+      "item.rss_space_mod.cargo_blueprint": "T1 Rocket Storage Blueprint",
+      "item.rss_space_mod.flourite_powder": "Flourite Powder",
+      "block.rss_space_mod.crashed_sattelite_main_generator": "Crashed Sattelite Main Generator",
+      "entity.rss_space_mod.gc_rocket": "GC Rocket",
+      "block.rss_space_mod.ore_black_sand": "Black Sand",
+      "gamerule.rsssm_structure_generate": "structureGenerate",
+      "item.rss_space_mod.uranium_fuel_nugget": "Nugget of Uranium Fuel",
+      "item.rss_space_mod.thorium_crushed": "Crushed Thorium",
+      "gamerule.rSSSMStructureGenerate.description": "defines if the random structures from RSS SM will generate",
+      "block.rss_space_mod.redstone_generator_on": "Redstone Generator",
+      "entity.rss_space_mod.crashed_sattelite": "Crashed Sattelite",
+      "block.rss_space_mod.magnesium_ore": "Magnesium Ore",
+      "item.rss_tech_mod.moon": "Moon Portal Igniter",
+      "gamerule.rsssm_structure_generate.description": "defines if the random structures from RSS SM will generate",
+      "item.rss_tech_mod.armor_astronaut_suit_chestplate": "Astronaut Suit Body",
+      "itemGroup.tabtools_and_armour_creative_tab": "RSS\u0027SM Equipment",
+      "item.rss_tech_mod.armor_astronaut_suit_leggings": "Astronaut Suit Leggings",
+      "block.rss_space_mod.uranium_hexaflourite": "Uranium Hexaflourite",
+      "item.rss_tech_mod.armor_astronaut_suit_helmet": "Astronaut Suit Helmet",
+      "block.rss_space_mod.sellafite_blazing": "Blazing Sellafite",
+      "block.rss_space_mod.ore_black_sand_gold": "Gold Ore In Black Sand",
+      "block.rss_space_mod.crashed_rocket_main_generator": "Crashed Rocket Main Generator",
+      "item.rss_space_mod.uranium_ingot": "Uranium Ingot",
+      "block.rss_space_mod.remote_reactor_controller": "Remote Reactor Controller",
+      "death.attack.bad_decision": "%1$s made a bad decision",
+      "item.rss_space_mod.insta_noodles_curry": "Curry Flavoured Insta Noodles",
+      "item.rss_space_mod.cockpit_blueprint": "T1 Rocket Cockpit Blueprint",
+      "item.rss_space_mod.thorium_fuel_nugget": "Nugget of Thorium Fuel",
+      "item.rss_space_mod.yellowcake": "Yellowcake",
+      "block.rss_space_mod.uranium_ore": "Uranium Ore",
+      "item.rss_tech_mod.armor_astronaut_suit_boots": "Armor Astronaut Suit Boots",
       "block.rss_space_mod.research_station_spawn": "Research Station Spawn",
+      "item.rss_space_mod.moon": "Moon Portal Igniter",
+      "block.rss_space_mod.placer_deposit_mid": "Placer Deposit Mid",
       "subtitles.a_mist_of_mystic": "",
       "block.rss_space_mod.ore_black_sand_platinum": "Platinum Ore In Black Sand",
-      "block.rss_space_mod.placer_deposit_bottom": "Placer Deposit Bottom",
       "item.rss_space_mod.armor_astronaut_suit_chestplate": "Astronaut Suit Body",
+      "block.rss_space_mod.sellafield_m_main_generator": "Sellafield M Main Generator",
       "itemGroup.tabitems_creative_tab": "RSS\u0027SM Items and Ingots",
-      "item.rss_space_mod.thorium_232_ingot": "Thorium-232 Ingot",
       "block.rss_space_mod.placer_deposit_top": "Placer Deposit Top",
       "block.rss_space_mod.nuclear_reactor_spawn": "Nuclear Reactor Spawn",
       "item.rss_space_mod.thorium_fuel_ingot": "Ingot of Thorium Fuel",
-      "item.rss_space_mod.uranium_235_ingot": "Uranium-235 Ingot",
-      "item.rss_space_mod.uranium_238_ingot": "Uranium-238 Ingot",
-      "block.rss_space_mod.ore_black_sand_thorium": "Thorium Ore In Black Sand",
-      "item.rss_space_mod.gc_rocket_spawn_egg": "GC Rocket Spawn Egg",
-      "block.rss_space_mod.lab_large_main_generator": "Lab Large Main Generator"
+      "item.rss_space_mod.uranium_238_ingot": "Uranium-238 Ingot"
     }
   },
   "foldersRoot": {
@@ -1300,7 +1933,16 @@
         "name": "Items",
         "children": [
           {
-            "name": "Ingots",
+            "name": "Minerals",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "Fluids",
+        "children": [
+          {
+            "name": "Fluid Gasses",
             "children": []
           }
         ]
@@ -1310,7 +1952,7 @@
   "workspaceSettings": {
     "modid": "rss_space_mod",
     "modName": "RSS Space Mod",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "RedstoneStick, MCreator",
     "websiteURL": "https://mcreator.net",
     "license": "Academic Free License v3.0",

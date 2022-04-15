@@ -28,7 +28,7 @@ public class SellafiteHotBlock extends RssSpaceModModElements.ModElement {
 	public static final Block block = null;
 
 	public SellafiteHotBlock(RssSpaceModModElements instance) {
-		super(instance, 48);
+		super(instance, 27);
 	}
 
 	@Override

@@ -45,7 +45,7 @@ public class ResearchStationSpawnBlock extends RssSpaceModModElements.ModElement
 	public static final Block block = null;
 
 	public ResearchStationSpawnBlock(RssSpaceModModElements instance) {
-		super(instance, 52);
+		super(instance, 57);
 	}
 
 	@Override

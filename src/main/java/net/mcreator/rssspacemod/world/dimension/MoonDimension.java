@@ -28,7 +28,7 @@ import com.google.common.collect.ImmutableSet;
 @RssSpaceModModElements.ModElement.Tag
 public class MoonDimension extends RssSpaceModModElements.ModElement {
 	public MoonDimension(RssSpaceModModElements instance) {
-		super(instance, 2);
+		super(instance, 1);
 	}
 
 	@Override

@@ -35,7 +35,7 @@ public class RedstoneGeneratorOnBlock extends RssSpaceModModElements.ModElement 
 	public static final Block block = null;
 
 	public RedstoneGeneratorOnBlock(RssSpaceModModElements instance) {
-		super(instance, 36);
+		super(instance, 55);
 	}
 
 	@Override

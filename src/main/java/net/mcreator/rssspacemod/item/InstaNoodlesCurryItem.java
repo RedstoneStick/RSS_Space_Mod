@@ -24,7 +24,7 @@ public class InstaNoodlesCurryItem extends RssSpaceModModElements.ModElement {
 	public static final Item block = null;
 
 	public InstaNoodlesCurryItem(RssSpaceModModElements instance) {
-		super(instance, 58);
+		super(instance, 50);
 	}
 
 	@Override

@@ -28,7 +28,7 @@ public class SellafiteNormalBlock extends RssSpaceModModElements.ModElement {
 	public static final Block block = null;
 
 	public SellafiteNormalBlock(RssSpaceModModElements instance) {
-		super(instance, 47);
+		super(instance, 26);
 	}
 
 	@Override

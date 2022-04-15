@@ -28,7 +28,7 @@ public class SellafiteBlazingBlock extends RssSpaceModModElements.ModElement {
 	public static final Block block = null;
 
 	public SellafiteBlazingBlock(RssSpaceModModElements instance) {
-		super(instance, 49);
+		super(instance, 28);
 	}
 
 	@Override

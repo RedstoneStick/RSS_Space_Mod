@@ -34,7 +34,7 @@ public class PlacerDepositMainBlock extends RssSpaceModModElements.ModElement {
 	public static final Block block = null;
 
 	public PlacerDepositMainBlock(RssSpaceModModElements instance) {
-		super(instance, 28);
+		super(instance, 7);
 	}
 
 	@Override

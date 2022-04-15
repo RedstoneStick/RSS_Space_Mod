@@ -43,7 +43,7 @@ public class NuclearReactorSpawnBlock extends RssSpaceModModElements.ModElement 
 	public static final Block block = null;
 
 	public NuclearReactorSpawnBlock(RssSpaceModModElements instance) {
-		super(instance, 45);
+		super(instance, 56);
 	}
 
 	@Override

@@ -44,7 +44,7 @@ public class RemoteReactorControllerBlock extends RssSpaceModModElements.ModElem
 	public static final Block block = null;
 
 	public RemoteReactorControllerBlock(RssSpaceModModElements instance) {
-		super(instance, 53);
+		super(instance, 58);
 	}
 
 	@Override

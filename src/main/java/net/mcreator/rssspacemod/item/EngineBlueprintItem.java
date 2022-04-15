@@ -31,7 +31,7 @@ public class EngineBlueprintItem extends RssSpaceModModElements.ModElement {
 	public static final Item block = null;
 
 	public EngineBlueprintItem(RssSpaceModModElements instance) {
-		super(instance, 51);
+		super(instance, 54);
 	}
 
 	@Override

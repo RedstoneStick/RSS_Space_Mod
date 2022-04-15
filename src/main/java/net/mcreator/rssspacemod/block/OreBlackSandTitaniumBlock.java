@@ -29,7 +29,7 @@ public class OreBlackSandTitaniumBlock extends RssSpaceModModElements.ModElement
 	public static final Block block = null;
 
 	public OreBlackSandTitaniumBlock(RssSpaceModModElements instance) {
-		super(instance, 20);
+		super(instance, 23);
 	}
 
 	@Override

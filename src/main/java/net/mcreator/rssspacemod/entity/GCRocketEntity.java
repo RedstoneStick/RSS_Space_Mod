@@ -53,7 +53,7 @@ public class GCRocketEntity extends RssSpaceModModElements.ModElement {
 			.size(1.5f, 1.5f)).build("gc_rocket").setRegistryName("gc_rocket");
 
 	public GCRocketEntity(RssSpaceModModElements instance) {
-		super(instance, 55);
+		super(instance, 12);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new GCRocketRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

@@ -33,7 +33,7 @@ public class GalacticraftRocketBlueprintItem extends RssSpaceModModElements.ModE
 	public static final Item block = null;
 
 	public GalacticraftRocketBlueprintItem(RssSpaceModModElements instance) {
-		super(instance, 50);
+		super(instance, 53);
 	}
 
 	@Override

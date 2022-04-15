@@ -1,6 +1,22 @@
 {
-  "parent": "item/handheld",
-  "textures": {
-    "layer0": "rss_space_mod:blocks/generator_block_2"
+  "parent": "rss_space_mod:block/remote_reactor_controller",
+  "display": {
+    "thirdperson": {
+      "rotation": [
+        10,
+        -45,
+        170
+      ],
+      "translation": [
+        0,
+        1.5,
+        -2.75
+      ],
+      "scale": [
+        0.375,
+        0.375,
+        0.375
+      ]
+    }
   }
 }

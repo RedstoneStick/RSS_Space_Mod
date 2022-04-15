@@ -24,7 +24,7 @@ public class MoonCracksBiome extends RssSpaceModModElements.ModElement {
 	public static Biome biome;
 
 	public MoonCracksBiome(RssSpaceModModElements instance) {
-		super(instance, 1);
+		super(instance, 59);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new BiomeRegisterHandler());
 	}
 

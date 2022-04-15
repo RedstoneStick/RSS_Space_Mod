@@ -1,17 +1,7 @@
 {
-  "parent": "forge:item/default",
-  "loader": "forge:composite",
-  "parts": {
-    "part1": {
-      "loader": "forge:obj",
-      "model": "rss_space_mod:models/item/reactorcontroller.obj",
-      "ambientToFullbright": true,
-      "textures": {
-        "#m_0": "rss_space_mod:blocks/reactorcontroller"
-      }
-    }
-  },
+  "parent": "block/cube_all",
   "textures": {
+    "all": "rss_space_mod:blocks/generator_block_2",
     "particle": "rss_space_mod:blocks/generator_block_2"
   }
 }

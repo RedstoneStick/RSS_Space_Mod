@@ -53,7 +53,7 @@ public class MagnesiumOreBlock extends RssSpaceModModElements.ModElement {
 	public static final Block block = null;
 
 	public MagnesiumOreBlock(RssSpaceModModElements instance) {
-		super(instance, 7);
+		super(instance, 17);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

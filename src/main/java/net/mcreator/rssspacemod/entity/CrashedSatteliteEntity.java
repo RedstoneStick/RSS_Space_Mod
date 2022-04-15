@@ -53,7 +53,7 @@ public class CrashedSatteliteEntity extends RssSpaceModModElements.ModElement {
 			.size(1.5f, 1.5f)).build("crashed_sattelite").setRegistryName("crashed_sattelite");
 
 	public CrashedSatteliteEntity(RssSpaceModModElements instance) {
-		super(instance, 56);
+		super(instance, 13);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new CrashedSatteliteRenderer.ModelRegisterHandler());
 		FMLJavaModLoadingContext.get().getModEventBus().register(new EntityAttributesRegisterHandler());
 	}

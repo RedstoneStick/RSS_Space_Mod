@@ -53,7 +53,7 @@ public class HazmatSuitStandBlock extends RssSpaceModModElements.ModElement {
 	public static final Block block = null;
 
 	public HazmatSuitStandBlock(RssSpaceModModElements instance) {
-		super(instance, 60);
+		super(instance, 14);
 	}
 
 	@Override
@@ -95,25 +95,25 @@ public class HazmatSuitStandBlock extends RssSpaceModModElements.ModElement {
 			switch ((Direction) state.get(FACING)) {
 				case SOUTH :
 				default :
-					return VoxelShapes.or(makeCuboidShape(16, -8, 7, 0, 24, 0)
+					return VoxelShapes.or(makeCuboidShape(16, 0, 7, 0, 16, 0)
 
 					)
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case NORTH :
-					return VoxelShapes.or(makeCuboidShape(0, -8, 9, 16, 24, 16)
+					return VoxelShapes.or(makeCuboidShape(0, 0, 9, 16, 16, 16)
 
 					)
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case EAST :
-					return VoxelShapes.or(makeCuboidShape(7, -8, 0, 0, 24, 16)
+					return VoxelShapes.or(makeCuboidShape(7, 0, 0, 0, 16, 16)
 
 					)
 
 							.withOffset(offset.x, offset.y, offset.z);
 				case WEST :
-					return VoxelShapes.or(makeCuboidShape(9, -8, 16, 16, 24, 0)
+					return VoxelShapes.or(makeCuboidShape(9, 0, 16, 16, 16, 0)
 
 					)
 

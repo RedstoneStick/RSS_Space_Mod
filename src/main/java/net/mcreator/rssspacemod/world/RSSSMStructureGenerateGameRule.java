@@ -14,7 +14,7 @@ public class RSSSMStructureGenerateGameRule extends RssSpaceModModElements.ModEl
 			create(true));
 
 	public RSSSMStructureGenerateGameRule(RssSpaceModModElements instance) {
-		super(instance, 27);
+		super(instance, 71);
 	}
 
 	public static GameRules.RuleType<GameRules.BooleanValue> create(boolean defaultValue) {

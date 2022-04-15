@@ -37,7 +37,7 @@ public class ArmorAstronautSuitItem extends RssSpaceModModElements.ModElement {
 	public static final Item boots = null;
 
 	public ArmorAstronautSuitItem(RssSpaceModModElements instance) {
-		super(instance, 11);
+		super(instance, 3);
 	}
 
 	@Override

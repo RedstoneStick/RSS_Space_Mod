@@ -34,7 +34,7 @@ public class LabSmallMainGeneratorBlock extends RssSpaceModModElements.ModElemen
 	public static final Block block = null;
 
 	public LabSmallMainGeneratorBlock(RssSpaceModModElements instance) {
-		super(instance, 43);
+		super(instance, 11);
 	}
 
 	@Override

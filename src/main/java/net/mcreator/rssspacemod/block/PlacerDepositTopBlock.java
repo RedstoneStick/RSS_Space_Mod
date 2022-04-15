@@ -62,7 +62,7 @@ public class PlacerDepositTopBlock extends RssSpaceModModElements.ModElement {
 	public static final TileEntityType<CustomTileEntity> tileEntityType = null;
 
 	public PlacerDepositTopBlock(RssSpaceModModElements instance) {
-		super(instance, 22);
+		super(instance, 4);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new TileEntityRegisterHandler());
 	}
 

@@ -23,7 +23,7 @@ public class Uranium238NuggetItem extends RssSpaceModModElements.ModElement {
 	public static final Item block = null;
 
 	public Uranium238NuggetItem(RssSpaceModModElements instance) {
-		super(instance, 64);
+		super(instance, 34);
 	}
 
 	@Override

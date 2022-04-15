@@ -31,7 +31,7 @@ public class MoonTeleporterItemItem extends RssSpaceModModElements.ModElement {
 	public static final Item block = null;
 
 	public MoonTeleporterItemItem(RssSpaceModModElements instance) {
-		super(instance, 3);
+		super(instance, 2);
 	}
 
 	@Override

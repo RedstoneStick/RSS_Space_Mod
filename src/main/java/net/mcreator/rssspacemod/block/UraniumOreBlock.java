@@ -56,7 +56,7 @@ public class UraniumOreBlock extends RssSpaceModModElements.ModElement {
 	public static final Block block = null;
 
 	public UraniumOreBlock(RssSpaceModModElements instance) {
-		super(instance, 4);
+		super(instance, 15);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}

@@ -6,6 +6,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IBlockDisplayReader;
 import net.minecraft.util.math.shapes.VoxelShapes;
@@ -20,6 +21,7 @@ import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.MobEntity;
+import net.minecraft.entity.Entity;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.PushReaction;
@@ -29,11 +31,16 @@ import net.minecraft.block.SoundType;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
+import net.mcreator.rssspacemod.procedures.RadonEntityCollidesInTheBlockProcedure;
 import net.mcreator.rssspacemod.itemgroup.OresCreativeTabItemGroup;
 import net.mcreator.rssspacemod.RssSpaceModModElements;
 
+import java.util.stream.Stream;
+import java.util.Map;
 import java.util.List;
+import java.util.HashMap;
 import java.util.Collections;
+import java.util.AbstractMap;
 
 @RssSpaceModModElements.ModElement.Tag
 public class RadonBlock extends RssSpaceModModElements.ModElement {
@@ -41,7 +48,7 @@ public class RadonBlock extends RssSpaceModModElements.ModElement {
 	public static final Block block = null;
 
 	public RadonBlock(RssSpaceModModElements instance) {
-		super(instance, 5);
+		super(instance, 16);
 	}
 
 	@Override
@@ -110,6 +117,17 @@ public class RadonBlock extends RssSpaceModModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
+		}
+
+		@Override
+		public void onEntityCollision(BlockState blockstate, World world, BlockPos pos, Entity entity) {
+			super.onEntityCollision(blockstate, world, pos, entity);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+
+			RadonEntityCollidesInTheBlockProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
+					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
 		}
 	}
 }

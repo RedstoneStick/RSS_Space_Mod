@@ -23,7 +23,7 @@ public class ThoriumFuelIngotItem extends RssSpaceModModElements.ModElement {
 	public static final Item block = null;
 
 	public ThoriumFuelIngotItem(RssSpaceModModElements instance) {
-		super(instance, 71);
+		super(instance, 43);
 	}
 
 	@Override

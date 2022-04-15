@@ -27,7 +27,7 @@ public class CockpitBlueprintItem extends RssSpaceModModElements.ModElement {
 	public static final Item block = null;
 
 	public CockpitBlueprintItem(RssSpaceModModElements instance) {
-		super(instance, 33);
+		super(instance, 51);
 	}
 
 	@Override
