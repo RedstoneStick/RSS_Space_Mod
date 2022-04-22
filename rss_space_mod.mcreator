@@ -1688,6 +1688,42 @@
       "locked_code": false,
       "registry_name": "sellafield_m_structure",
       "path": "~/Structures/Sellafield"
+    },
+    {
+      "name": "ThoriumOre",
+      "type": "block",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thorium_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "TitaniumOre",
+      "type": "block",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "titanium_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "FlouriteOre",
+      "type": "block",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "flourite_ore",
+      "path": "~/Ores"
+    },
+    {
+      "name": "Sphere",
+      "type": "block",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sphere",
+      "path": "~/Dev Tools"
     }
   ],
   "variable_elements": [
@@ -1737,6 +1773,7 @@
       "block.rss_space_mod.power_plant_main_generator": "Power Plant Main Generator",
       "item.rss_space_mod.uranium_hexaflourite_bucket": "Bucket of Uranium Hexaflourite",
       "block.rss_space_mod.sellafite_slaked": "Slaked Sellafite ",
+      "block.rss_space_mod.sphere": "Sphere",
       "itemGroup.tabmachines_creative_tab": "RSS\u0027SM Machines",
       "itemGroup.tabdev_tools_creative_tab": "RSS\u0027SM Admin Tools",
       "item.rss_space_mod.uranium_fuel_ingot": "Ingot of Uranium Fuel",
@@ -1760,6 +1797,7 @@
       "biome.rss_space_mod.moon_cracks": "Moon Cracks",
       "block.rss_space_mod.hazmat_suit_stand": "Hazmat Suit Stand",
       "item.rss_space_mod.armor_astronaut_suit_leggings": "Astronaut Suit Leggings",
+      "block.rss_space_mod.titanium_ore": "Titanium Ore",
       "block.rss_space_mod.astronaut_suit_stand": "Astronaut Suit Stand",
       "block.rss_space_mod.redstone_generator_off": "Redstone Generator Off",
       "block.rss_space_mod.sellafield_s_main_generator": "Sellafield S Main Generator",
@@ -1795,7 +1833,9 @@
       "block.rss_space_mod.uranium_hexaflourite": "Uranium Hexaflourite",
       "item.rss_tech_mod.armor_astronaut_suit_helmet": "Astronaut Suit Helmet",
       "block.rss_space_mod.sellafite_blazing": "Blazing Sellafite",
+      "block.rss_space_mod.flourite_ore": "Flourite Ore",
       "block.rss_space_mod.ore_black_sand_gold": "Gold Ore In Black Sand",
+      "block.rss_space_mod.thorium_ore": "Thorium Ore",
       "block.rss_space_mod.crashed_rocket_main_generator": "Crashed Rocket Main Generator",
       "item.rss_space_mod.uranium_ingot": "Uranium Ingot",
       "block.rss_space_mod.remote_reactor_controller": "Remote Reactor Controller",
@@ -1952,14 +1992,19 @@
   "workspaceSettings": {
     "modid": "rss_space_mod",
     "modName": "RSS Space Mod",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "RedstoneStick, MCreator",
     "websiteURL": "https://mcreator.net",
-    "license": "Academic Free License v3.0",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "requiredMods": [],
-    "dependencies": [],
+    "dependencies": [
+      " create",
+      " chipped",
+      " supplementaries",
+      "immersiveengineering"
+    ],
     "dependants": [],
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.16.5",

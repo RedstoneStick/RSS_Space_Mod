@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="Academic Free License v3.0"
+license="MIT License"
 
 [[mods]]
 modId="rss_space_mod"
-version="0.0.3"
+version="0.0.4"
 displayName="RSS Space Mod"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://mcreator.net"
@@ -19,4 +19,28 @@ authors="RedstoneStick, MCreator"
 
 
 
+[[dependencies.rss_space_mod]]
+    modId=" create"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.rss_space_mod]]
+    modId=" chipped"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.rss_space_mod]]
+    modId=" supplementaries"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.rss_space_mod]]
+    modId="immersiveengineering"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 

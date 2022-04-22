@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "rss_space_mod:blocks/ore_titanium",
+    "particle": "rss_space_mod:blocks/ore_titanium"
+  }
+}

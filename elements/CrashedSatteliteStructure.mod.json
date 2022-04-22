@@ -5,7 +5,7 @@
     "structure": "crash_sattelite",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 500,
+    "spawnProbability": 250,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

@@ -5,7 +5,7 @@
     "structure": "research_outpost_generator",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 500,
+    "spawnProbability": 375,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

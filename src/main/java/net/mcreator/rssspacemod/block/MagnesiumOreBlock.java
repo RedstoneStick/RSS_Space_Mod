@@ -67,7 +67,7 @@ public class MagnesiumOreBlock extends RssSpaceModModElements.ModElement {
 
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1f, 3f).setLightLevel(s -> 0));
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0));
 			setRegistryName("magnesium_ore");
 		}
 
@@ -143,7 +143,7 @@ public class MagnesiumOreBlock extends RssSpaceModModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 7)).range(40)
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 9)).range(40)
 					.square().func_242731_b(3);
 			event.getRegistry().register(feature.setRegistryName("magnesium_ore"));
 			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rss_space_mod:magnesium_ore"), configuredFeature);

@@ -29,8 +29,6 @@ import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.fluid.FluidState;
-import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.block.material.MaterialColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
@@ -38,25 +36,20 @@ import net.minecraft.block.Blocks;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
-import net.mcreator.rssspacemod.procedures.UraniumGeneratesRadonProcedure;
 import net.mcreator.rssspacemod.itemgroup.OresCreativeTabItemGroup;
 import net.mcreator.rssspacemod.RssSpaceModModElements;
 
-import java.util.stream.Stream;
 import java.util.Random;
-import java.util.Map;
 import java.util.List;
-import java.util.HashMap;
 import java.util.Collections;
-import java.util.AbstractMap;
 
 @RssSpaceModModElements.ModElement.Tag
-public class UraniumOreBlock extends RssSpaceModModElements.ModElement {
-	@ObjectHolder("rss_space_mod:uranium_ore")
+public class ThoriumOreBlock extends RssSpaceModModElements.ModElement {
+	@ObjectHolder("rss_space_mod:thorium_ore")
 	public static final Block block = null;
 
-	public UraniumOreBlock(RssSpaceModModElements instance) {
-		super(instance, 15);
+	public ThoriumOreBlock(RssSpaceModModElements instance) {
+		super(instance, 110);
 		MinecraftForge.EVENT_BUS.register(this);
 		FMLJavaModLoadingContext.get().getModEventBus().register(new FeatureRegisterHandler());
 	}
@@ -72,7 +65,7 @@ public class UraniumOreBlock extends RssSpaceModModElements.ModElement {
 		public CustomBlock() {
 			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
-			setRegistryName("uranium_ore");
+			setRegistryName("thorium_ore");
 		}
 
 		@Override
@@ -91,20 +84,6 @@ public class UraniumOreBlock extends RssSpaceModModElements.ModElement {
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
 			return Collections.singletonList(new ItemStack(this, 1));
-		}
-
-		@Override
-		public boolean removedByPlayer(BlockState blockstate, World world, BlockPos pos, PlayerEntity entity, boolean willHarvest, FluidState fluid) {
-			boolean retval = super.removedByPlayer(blockstate, world, pos, entity, willHarvest, fluid);
-			int x = pos.getX();
-			int y = pos.getY();
-			int z = pos.getZ();
-
-			UraniumGeneratesRadonProcedure.executeProcedure(Stream
-					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
-							new AbstractMap.SimpleEntry<>("z", z))
-					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
-			return retval;
 		}
 	}
 
@@ -131,7 +110,7 @@ public class UraniumOreBlock extends RssSpaceModModElements.ModElement {
 	private static class FeatureRegisterHandler {
 		@SubscribeEvent
 		public void registerFeature(RegistryEvent.Register<Feature<?>> event) {
-			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("rss_space_mod:uranium_ore_match"), () -> CustomRuleTest.codec);
+			CUSTOM_MATCH = Registry.register(Registry.RULE_TEST, new ResourceLocation("rss_space_mod:thorium_ore_match"), () -> CustomRuleTest.codec);
 			feature = new OreFeature(OreFeatureConfig.CODEC) {
 				@Override
 				public boolean generate(ISeedReader world, ChunkGenerator generator, Random rand, BlockPos pos, OreFeatureConfig config) {
@@ -144,10 +123,10 @@ public class UraniumOreBlock extends RssSpaceModModElements.ModElement {
 					return super.generate(world, generator, rand, pos, config);
 				}
 			};
-			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(24)
-					.square().func_242731_b(5);
-			event.getRegistry().register(feature.setRegistryName("uranium_ore"));
-			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rss_space_mod:uranium_ore"), configuredFeature);
+			configuredFeature = feature.withConfiguration(new OreFeatureConfig(CustomRuleTest.INSTANCE, block.getDefaultState(), 5)).range(40)
+					.square().func_242731_b(10);
+			event.getRegistry().register(feature.setRegistryName("thorium_ore"));
+			Registry.register(WorldGenRegistries.CONFIGURED_FEATURE, new ResourceLocation("rss_space_mod:thorium_ore"), configuredFeature);
 		}
 	}
 

@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "rss_space_mod:blocks/generator_block_4"
+  }
+}

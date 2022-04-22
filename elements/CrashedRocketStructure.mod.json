@@ -5,7 +5,7 @@
     "structure": "crash_gc_rocket",
     "randomlyRotateStructure": false,
     "surfaceDetectionType": "First motion blocking block",
-    "spawnProbability": 200,
+    "spawnProbability": 250,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
     "spawnLocation": "Ground",

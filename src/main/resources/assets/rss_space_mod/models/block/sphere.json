@@ -1,0 +1,17 @@
+{
+  "parent": "forge:item/default",
+  "loader": "forge:composite",
+  "parts": {
+    "part1": {
+      "loader": "forge:obj",
+      "model": "rss_space_mod:models/item/sphere.obj",
+      "ambientToFullbright": true,
+      "textures": {
+        "#Material.001": "rss_space_mod:blocks/sphere_texture"
+      }
+    }
+  },
+  "textures": {
+    "particle": "rss_space_mod:blocks/generator_block_4"
+  }
+}

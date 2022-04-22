@@ -2,14 +2,14 @@
   "_fv": 24,
   "_type": "block",
   "definition": {
-    "texture": "ore_uranium",
-    "textureTop": "ore_uranium",
-    "textureLeft": "ore_uranium",
-    "textureFront": "ore_uranium",
-    "textureRight": "ore_uranium",
-    "textureBack": "ore_uranium",
-    "renderType": 10,
-    "customModelName": "Normal",
+    "texture": "ore_flourite",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
+    "renderType": 11,
+    "customModelName": "Single texture",
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
@@ -32,7 +32,7 @@
         "subtract": false
       }
     ],
-    "name": "Uranium Ore",
+    "name": "Flourite Ore",
     "specialInfo": [],
     "hardness": 3.0,
     "resistance": 3.0,
@@ -96,10 +96,10 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
-      "value": "LAVA"
+      "value": "EXPLOSION_NORMAL"
     },
     "particleSpawningShape": "Spread",
     "particleSpawningRadious": 0.5,
@@ -121,9 +121,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onDestroyedByPlayer": {
-      "name": "UraniumGeneratesRadon"
-    },
     "spawnWorldTypes": [
       "Surface"
     ],
@@ -133,9 +130,9 @@
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 5,
+    "frequencyPerChunks": 4,
     "frequencyOnChunk": 5,
     "minGenerateHeight": 0,
-    "maxGenerateHeight": 24
+    "maxGenerateHeight": 50
   }
 }
