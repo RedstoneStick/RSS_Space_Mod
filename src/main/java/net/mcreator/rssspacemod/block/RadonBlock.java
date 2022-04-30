@@ -6,9 +6,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.minecraft.world.server.ServerWorld;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockReader;
 import net.minecraft.world.IBlockDisplayReader;
+import net.minecraft.util.text.StringTextComponent;
+import net.minecraft.util.text.ITextComponent;
 import net.minecraft.util.math.shapes.VoxelShapes;
 import net.minecraft.util.math.shapes.VoxelShape;
 import net.minecraft.util.math.shapes.ISelectionContext;
@@ -21,7 +24,7 @@ import net.minecraft.item.BlockItemUseContext;
 import net.minecraft.item.BlockItem;
 import net.minecraft.fluid.FluidState;
 import net.minecraft.entity.MobEntity;
-import net.minecraft.entity.Entity;
+import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.RenderTypeLookup;
 import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.PushReaction;
@@ -36,6 +39,7 @@ import net.mcreator.rssspacemod.itemgroup.OresCreativeTabItemGroup;
 import net.mcreator.rssspacemod.RssSpaceModModElements;
 
 import java.util.stream.Stream;
+import java.util.Random;
 import java.util.Map;
 import java.util.List;
 import java.util.HashMap;
@@ -69,6 +73,14 @@ public class RadonBlock extends RssSpaceModModElements.ModElement {
 			super(Block.Properties.create(Material.MISCELLANEOUS).sound(SoundType.STONE).hardnessAndResistance(-1, 3600000).setLightLevel(s -> 0)
 					.doesNotBlockMovement().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("radon");
+		}
+
+		@Override
+		@OnlyIn(Dist.CLIENT)
+		public void addInformation(ItemStack itemstack, IBlockReader world, List<ITextComponent> list, ITooltipFlag flag) {
+			super.addInformation(itemstack, world, list, flag);
+			list.add(new StringTextComponent("\u00A7a[Radioactive]"));
+			list.add(new StringTextComponent("\u00A7e4,0RAD/s"));
 		}
 
 		@Override
@@ -120,14 +132,26 @@ public class RadonBlock extends RssSpaceModModElements.ModElement {
 		}
 
 		@Override
-		public void onEntityCollision(BlockState blockstate, World world, BlockPos pos, Entity entity) {
-			super.onEntityCollision(blockstate, world, pos, entity);
+		public void onBlockAdded(BlockState blockstate, World world, BlockPos pos, BlockState oldState, boolean moving) {
+			super.onBlockAdded(blockstate, world, pos, oldState, moving);
+			int x = pos.getX();
+			int y = pos.getY();
+			int z = pos.getZ();
+			world.getPendingBlockTicks().scheduleTick(pos, this, 10);
+		}
+
+		@Override
+		public void tick(BlockState blockstate, ServerWorld world, BlockPos pos, Random random) {
+			super.tick(blockstate, world, pos, random);
 			int x = pos.getX();
 			int y = pos.getY();
 			int z = pos.getZ();
 
-			RadonEntityCollidesInTheBlockProcedure.executeProcedure(Stream.of(new AbstractMap.SimpleEntry<>("entity", entity)).collect(HashMap::new,
-					(_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			RadonEntityCollidesInTheBlockProcedure.executeProcedure(Stream
+					.of(new AbstractMap.SimpleEntry<>("world", world), new AbstractMap.SimpleEntry<>("x", x), new AbstractMap.SimpleEntry<>("y", y),
+							new AbstractMap.SimpleEntry<>("z", z))
+					.collect(HashMap::new, (_m, _e) -> _m.put(_e.getKey(), _e.getValue()), Map::putAll));
+			world.getPendingBlockTicks().scheduleTick(pos, this, 10);
 		}
 	}
 }

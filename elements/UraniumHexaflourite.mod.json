@@ -21,7 +21,7 @@
     "viscosity": 5090,
     "isGas": false,
     "temperature": 420,
-    "type": "LAVA",
+    "type": "WATER",
     "generateBucket": false,
     "textureBucket": "",
     "creativeTab": {
@@ -37,7 +37,7 @@
     ],
     "resistance": 100.0,
     "luminance": 0,
-    "lightOpacity": 12,
+    "lightOpacity": 4,
     "emissiveRendering": false,
     "tickRate": 10,
     "flammability": 0,

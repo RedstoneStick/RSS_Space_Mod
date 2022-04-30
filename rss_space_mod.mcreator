@@ -1128,8 +1128,20 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "entity",
-            "type": "entity"
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },
@@ -1724,6 +1736,39 @@
       "locked_code": false,
       "registry_name": "sphere",
       "path": "~/Dev Tools"
+    },
+    {
+      "name": "PlayerRadiationHandler",
+      "type": "procedure",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_radiation_handler",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mechanics"
     }
   ],
   "variable_elements": [
@@ -1743,6 +1788,18 @@
       "name": "ZCord",
       "type": "number",
       "scope": "player_persistent",
+      "value": "0"
+    },
+    {
+      "name": "RadiationExposure",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0.0"
+    },
+    {
+      "name": "PlayerRadiationTimer",
+      "type": "number",
+      "scope": "map",
       "value": "0"
     }
   ],
@@ -1986,6 +2043,14 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Mechanics",
+        "children": []
       }
     ]
   },

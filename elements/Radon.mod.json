@@ -33,7 +33,10 @@
       }
     ],
     "name": "Radon Gas",
-    "specialInfo": [],
+    "specialInfo": [
+      "§a[Radioactive]",
+      "§e4,0RAD/s"
+    ],
     "hardness": 0.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -54,7 +57,7 @@
     "material": {
       "value": "MISCELLANEOUS"
     },
-    "tickRate": 0,
+    "tickRate": 10,
     "tickRandomly": false,
     "isReplaceable": true,
     "canProvidePower": false,
@@ -121,7 +124,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onEntityCollides": {
+    "onTickUpdate": {
       "name": "RadonEntityCollidesInTheBlock"
     },
     "spawnWorldTypes": [],

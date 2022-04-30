@@ -87,10 +87,10 @@ public class UraniumHexaflouriteBlock extends RssSpaceModModElements.ModElement 
 		still = (FlowingFluid) new CustomFlowingFluid.Source(fluidproperties).setRegistryName("uranium_hexaflourite");
 		flowing = (FlowingFluid) new CustomFlowingFluid.Flowing(fluidproperties).setRegistryName("uranium_hexaflourite_flowing");
 		elements.blocks.add(() -> new FlowingFluidBlock(still,
-				Block.Properties.create(Material.LAVA, MaterialColor.LIGHT_GRAY).hardnessAndResistance(100f).setLightLevel(s -> 0)) {
+				Block.Properties.create(Material.WATER, MaterialColor.LIGHT_GRAY).hardnessAndResistance(100f).setLightLevel(s -> 0)) {
 			@Override
 			public int getOpacity(BlockState state, IBlockReader worldIn, BlockPos pos) {
-				return 12;
+				return 4;
 			}
 
 			@Override
