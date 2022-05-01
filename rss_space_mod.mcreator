@@ -1751,16 +1751,41 @@
             "type": "entity"
           },
           {
-            "name": "x",
-            "type": "number"
-          },
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mechanics"
+    },
+    {
+      "name": "Ttestprtcl",
+      "type": "particle",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ttestprtcl"
+    },
+    {
+      "name": "Prtcltester",
+      "type": "keybind",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prtcltester"
+    },
+    {
+      "name": "PukeGenerator",
+      "type": "procedure",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "puke_generator",
+      "metadata": {
+        "dependencies": [
           {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
+            "name": "entity",
+            "type": "entity"
           },
           {
             "name": "world",
@@ -1769,6 +1794,23 @@
         ]
       },
       "path": "~/Mechanics"
+    },
+    {
+      "name": "PlayerRandNumHandler",
+      "type": "procedure",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player_rand_num_handler",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GeneralProcedures"
     }
   ],
   "variable_elements": [
@@ -1800,6 +1842,12 @@
       "name": "PlayerRadiationTimer",
       "type": "number",
       "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "PlayerSpesificRandNum",
+      "type": "number",
+      "scope": "player_persistent",
       "value": "0"
     }
   ],
@@ -1881,6 +1929,7 @@
       "gamerule.rSSSMStructureGenerate.description": "defines if the random structures from RSS SM will generate",
       "block.rss_space_mod.redstone_generator_on": "Redstone Generator",
       "entity.rss_space_mod.crashed_sattelite": "Crashed Sattelite",
+      "key.rss_space_mod.prtcltester": "Prtcltester",
       "block.rss_space_mod.magnesium_ore": "Magnesium Ore",
       "item.rss_tech_mod.moon": "Moon Portal Igniter",
       "gamerule.rsssm_structure_generate.description": "defines if the random structures from RSS SM will generate",

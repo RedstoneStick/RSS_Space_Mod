@@ -219,6 +219,7 @@ public class RssSpaceModModVariables {
 			nbt.putDouble("YCord", instance.YCord);
 			nbt.putDouble("ZCord", instance.ZCord);
 			nbt.putDouble("RadiationExposure", instance.RadiationExposure);
+			nbt.putDouble("PlayerSpesificRandNum", instance.PlayerSpesificRandNum);
 			return nbt;
 		}
 
@@ -229,6 +230,7 @@ public class RssSpaceModModVariables {
 			instance.YCord = nbt.getDouble("YCord");
 			instance.ZCord = nbt.getDouble("ZCord");
 			instance.RadiationExposure = nbt.getDouble("RadiationExposure");
+			instance.PlayerSpesificRandNum = nbt.getDouble("PlayerSpesificRandNum");
 		}
 	}
 
@@ -237,6 +239,7 @@ public class RssSpaceModModVariables {
 		public double YCord = 0;
 		public double ZCord = 0;
 		public double RadiationExposure = 0.0;
+		public double PlayerSpesificRandNum = 0;
 
 		public void syncPlayerVariables(Entity entity) {
 			if (entity instanceof ServerPlayerEntity)
@@ -274,6 +277,7 @@ public class RssSpaceModModVariables {
 		clone.XCord = original.XCord;
 		clone.YCord = original.YCord;
 		clone.ZCord = original.ZCord;
+		clone.PlayerSpesificRandNum = original.PlayerSpesificRandNum;
 		if (!event.isWasDeath()) {
 			clone.RadiationExposure = original.RadiationExposure;
 		}
@@ -305,6 +309,7 @@ public class RssSpaceModModVariables {
 					variables.YCord = message.data.YCord;
 					variables.ZCord = message.data.ZCord;
 					variables.RadiationExposure = message.data.RadiationExposure;
+					variables.PlayerSpesificRandNum = message.data.PlayerSpesificRandNum;
 				}
 			});
 			context.setPacketHandled(true);

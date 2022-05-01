@@ -1,0 +1,12 @@
+{
+  "_fv": 24,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "F",
+    "keyBindingName": "Prtcltester",
+    "keyBindingCategoryKey": "misc",
+    "onKeyPressed": {
+      "name": "PukeGenerator"
+    }
+  }
+}

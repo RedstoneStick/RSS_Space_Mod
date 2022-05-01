@@ -65,6 +65,7 @@
   "gamerule.rSSSMStructureGenerate.description": "defines if the random structures from RSS SM will generate",
   "block.rss_space_mod.redstone_generator_on": "Redstone Generator",
   "entity.rss_space_mod.crashed_sattelite": "Crashed Sattelite",
+  "key.rss_space_mod.prtcltester": "Prtcltester",
   "block.rss_space_mod.magnesium_ore": "Magnesium Ore",
   "item.rss_tech_mod.moon": "Moon Portal Igniter",
   "gamerule.rsssm_structure_generate.description": "defines if the random structures from RSS SM will generate",
