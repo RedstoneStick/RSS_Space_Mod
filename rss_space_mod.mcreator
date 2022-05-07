@@ -2114,10 +2114,10 @@
     "serverSideOnly": false,
     "requiredMods": [],
     "dependencies": [
-      " create",
-      " chipped",
-      " supplementaries",
-      "immersiveengineering"
+      "  chipped",
+      "  supplementaries",
+      " immersiveengineering",
+      "create"
     ],
     "dependants": [],
     "mcreatorDependencies": [],

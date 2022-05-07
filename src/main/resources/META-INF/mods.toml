@@ -20,25 +20,25 @@ authors="RedstoneStick, MCreator"
 
 
 [[dependencies.rss_space_mod]]
-    modId=" create"
+    modId="  chipped"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.rss_space_mod]]
-    modId=" chipped"
+    modId="  supplementaries"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.rss_space_mod]]
-    modId=" supplementaries"
+    modId=" immersiveengineering"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
 [[dependencies.rss_space_mod]]
-    modId="immersiveengineering"
+    modId="create"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
