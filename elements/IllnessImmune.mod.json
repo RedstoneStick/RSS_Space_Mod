@@ -1,0 +1,149 @@
+{
+  "_fv": 24,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:CrashedSattelite"
+      },
+      {
+        "value": "CUSTOM:GCRocket"
+      },
+      {
+        "value": "EntityAreaEffectCloud"
+      },
+      {
+        "value": "EntityArmorStand"
+      },
+      {
+        "value": "EntityArrow"
+      },
+      {
+        "value": "EntityBoat"
+      },
+      {
+        "value": "EntityDragonFireball"
+      },
+      {
+        "value": "EntityEgg"
+      },
+      {
+        "value": "EntityEnderCrystal"
+      },
+      {
+        "value": "EntityEnderPearl"
+      },
+      {
+        "value": "EntityEvokerFangs"
+      },
+      {
+        "value": "EntityExpBottle"
+      },
+      {
+        "value": "EntityXPOrb"
+      },
+      {
+        "value": "EntityEnderEye"
+      },
+      {
+        "value": "EntityFallingBlock"
+      },
+      {
+        "value": "EntityFireball"
+      },
+      {
+        "value": "EntityFireworkRocket"
+      },
+      {
+        "value": "EntityFishHook"
+      },
+      {
+        "value": "EntityGlowItemFrame"
+      },
+      {
+        "value": "EntityGolem"
+      },
+      {
+        "value": "EntityIronGolem"
+      },
+      {
+        "value": "EntityItem"
+      },
+      {
+        "value": "EntityItemFrame"
+      },
+      {
+        "value": "EntityLeashKnot"
+      },
+      {
+        "value": "EntityLightningBolt"
+      },
+      {
+        "value": "EntityLlamaSpit"
+      },
+      {
+        "value": "EntityMarker"
+      },
+      {
+        "value": "EntityMinecart"
+      },
+      {
+        "value": "EntityMinecartChest"
+      },
+      {
+        "value": "EntityMinecartCommandBlock"
+      },
+      {
+        "value": "EntityMinecartContainer"
+      },
+      {
+        "value": "EntityMinecartFurnace"
+      },
+      {
+        "value": "EntityMinecartHopper"
+      },
+      {
+        "value": "EntityMinecartMobSpawner"
+      },
+      {
+        "value": "EntityMinecartTNT"
+      },
+      {
+        "value": "EntityPainting"
+      },
+      {
+        "value": "EntityPotion"
+      },
+      {
+        "value": "EntityShulkerBullet"
+      },
+      {
+        "value": "EntitySmallFireball"
+      },
+      {
+        "value": "EntitySnowman"
+      },
+      {
+        "value": "EntitySnowball"
+      },
+      {
+        "value": "EntitySpectralArrow"
+      },
+      {
+        "value": "EntityTNTPrimed"
+      },
+      {
+        "value": "EntityTrident"
+      },
+      {
+        "value": "EntityWitherSkull"
+      }
+    ],
+    "name": "illness_immune",
+    "namespace": "mod"
+  }
+}
